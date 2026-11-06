@@ -1,0 +1,3925 @@
+{
+ "stats": {
+  "ACONF": {
+   "dataset": "ACONF",
+   "datatype": "INC",
+   "datatype_long": "Intramolecular Noncovalent",
+   "n": 15,
+   "n_full_set": 15,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 2.23280707213216,
+   "standard_error": 0.04732497243293058,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.13881632229498533,
+     "RMSE": 0.15371992565322684,
+     "MSE": 0.13881632229498533,
+     "MaxAE": 0.2999885163690328,
+     "metric": 0.13881632229498533,
+     "metric_kind": "MAE",
+     "relative_metric": 2.933257330296752
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.14164771614493538,
+     "RMSE": 0.158137900910081,
+     "MSE": 0.14164771614493538,
+     "MaxAE": 0.31585691906677216,
+     "metric": 0.14164771614493538,
+     "metric_kind": "MAE",
+     "relative_metric": 2.993086078299991,
+     "dMAE": 0.0028313938499500424,
+     "improvement_pct": -2.0396692572890074,
+     "wins": 8,
+     "losses": 7,
+     "win_rate": 0.5333333333333333,
+     "p_value": 0.33026123046875,
+     "dMAE_ci": [
+      -0.0001809412871949173,
+      0.006260984423022658
+     ],
+     "median_gain": 2.9418689919125107e-05
+    }
+   }
+  },
+  "ADIM6": {
+   "dataset": "ADIM6",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 4,
+   "n_full_set": 6,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 2.664406333291278,
+   "standard_error": 0.1136901985619618,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.14683682654443747,
+     "RMSE": 0.15178015273349596,
+     "MSE": -0.14683682654443747,
+     "MaxAE": 0.1935351483510761,
+     "metric": 0.14683682654443747,
+     "metric_kind": "MAE",
+     "relative_metric": 1.2915522041630578
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.2495867918609852,
+     "RMSE": 0.25874938038699524,
+     "MSE": -0.2495867918609852,
+     "MaxAE": 0.33909927137255247,
+     "metric": 0.2495867918609852,
+     "metric_kind": "MAE",
+     "relative_metric": 2.1953237395830474,
+     "dMAE": 0.10274996531654773,
+     "improvement_pct": -69.97561016170037,
+     "wins": 0,
+     "losses": 4,
+     "win_rate": 0.0,
+     "p_value": NaN,
+     "dMAE_ci": [
+      0.07504634914302677,
+      0.1304535814900687
+     ],
+     "median_gain": -0.09937165351193578
+    }
+   }
+  },
+  "AlkIsod14": {
+   "dataset": "AlkIsod14",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 14,
+   "n_full_set": 14,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 10.353791837873082,
+   "standard_error": 0.8040966288725685,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.6293584559328629,
+     "RMSE": 0.7263725231839744,
+     "MSE": -0.6293584559328629,
+     "MaxAE": 1.4658092849088789,
+     "metric": 0.6293584559328629,
+     "metric_kind": "MAE",
+     "relative_metric": 0.7826900814337355
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.5418154853694898,
+     "RMSE": 0.6320933568146275,
+     "MSE": -0.5418154853694898,
+     "MaxAE": 1.3043792282521043,
+     "metric": 0.5418154853694898,
+     "metric_kind": "MAE",
+     "relative_metric": 0.6738188743922162,
+     "dMAE": -0.08754297056337312,
+     "improvement_pct": 13.909874370975611,
+     "wins": 14,
+     "losses": 0,
+     "win_rate": 1.0,
+     "p_value": 0.0001220703125,
+     "dMAE_ci": [
+      -0.10691800280060341,
+      -0.06802129837701998
+     ],
+     "median_gain": 0.08642179537010541
+    }
+   }
+  },
+  "AlkIsomer11": {
+   "dataset": "AlkIsomer11",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 11,
+   "n_full_set": 11,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 1.8097136896757393,
+   "standard_error": 0.1318924441475725,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.35794560743559445,
+     "RMSE": 0.4534766934633554,
+     "MSE": 0.35794560743559445,
+     "MaxAE": 1.082262826310091,
+     "metric": 0.35794560743559445,
+     "metric_kind": "MAE",
+     "relative_metric": 2.7139204959693854
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.32676785700451844,
+     "RMSE": 0.4123130531224578,
+     "MSE": 0.32676785700451844,
+     "MaxAE": 0.9693835922064178,
+     "metric": 0.32676785700451844,
+     "metric_kind": "MAE",
+     "relative_metric": 2.477532804221163,
+     "dMAE": -0.031177750431076012,
+     "improvement_pct": 8.710192214521268,
+     "wins": 11,
+     "losses": 0,
+     "win_rate": 1.0,
+     "p_value": 0.0009765625,
+     "dMAE_ci": [
+      -0.049258184119635125,
+      -0.01763668704709104
+     ],
+     "median_gain": 0.02602253769377283
+    }
+   }
+  },
+  "Amino20x4": {
+   "dataset": "Amino20x4",
+   "datatype": "INC",
+   "datatype_long": "Intramolecular Noncovalent",
+   "n": 30,
+   "n_full_set": 80,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 2.9495326723570283,
+   "standard_error": 0.193032731157904,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.20177456080625653,
+     "RMSE": 0.283217630865864,
+     "MSE": 0.1819303591002175,
+     "MaxAE": 0.6923198306292635,
+     "metric": 0.20177456080625653,
+     "metric_kind": "MAE",
+     "relative_metric": 1.0452867738850027
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.20568809761175527,
+     "RMSE": 0.28134489941550944,
+     "MSE": 0.1784368866397937,
+     "MaxAE": 0.7001867568039106,
+     "metric": 0.20568809761175527,
+     "metric_kind": "MAE",
+     "relative_metric": 1.0655607283694233,
+     "dMAE": 0.003913536805498746,
+     "improvement_pct": -1.939559075168309,
+     "wins": 12,
+     "losses": 18,
+     "win_rate": 0.4,
+     "p_value": 0.22064675763249397,
+     "dMAE_ci": [
+      -0.009160178620458252,
+      0.017125631607124405
+     ],
+     "median_gain": -0.0074921219255843635
+    }
+   }
+  },
+  "BDE99nonMR": {
+   "dataset": "BDE99nonMR",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 30,
+   "n_full_set": 83,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 117.8972619791555,
+   "standard_error": 1.930809315364183,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 4.985625397298904,
+     "RMSE": 5.726797892773547,
+     "MSE": 1.3918331408442788,
+     "MaxAE": 13.087270558896705,
+     "metric": 4.985625397298904,
+     "metric_kind": "MAE",
+     "relative_metric": 2.5821428131853255
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 6.834001278339465,
+     "RMSE": 8.591652364034228,
+     "MSE": -6.024922730708012,
+     "MaxAE": 19.028597056733588,
+     "metric": 6.834001278339465,
+     "metric_kind": "MAE",
+     "relative_metric": 3.5394490921287365,
+     "dMAE": 1.8483758810405613,
+     "improvement_pct": -37.07410272023182,
+     "wins": 12,
+     "losses": 18,
+     "win_rate": 0.4,
+     "p_value": 0.12413446232676506,
+     "dMAE_ci": [
+      -0.3046850718954565,
+      3.835842780180628
+     ],
+     "median_gain": -3.065421384041059
+    }
+   }
+  },
+  "BH28": {
+   "dataset": "BH28",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 28,
+   "n_full_set": 28,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 35.18417718496043,
+   "standard_error": 1.174950884973305,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 5.491807940293062,
+     "RMSE": 5.9781995653556645,
+     "MSE": -5.1505830263981895,
+     "MaxAE": 10.600268777085525,
+     "metric": 5.491807940293062,
+     "metric_kind": "MAE",
+     "relative_metric": 4.674074474540982
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 5.33943993891423,
+     "RMSE": 5.845012834772447,
+     "MSE": -5.012684297268074,
+     "MaxAE": 10.6701216957985,
+     "metric": 5.33943993891423,
+     "metric_kind": "MAE",
+     "relative_metric": 4.544394159110356,
+     "dMAE": -0.15236800137883133,
+     "improvement_pct": 2.774459759616074,
+     "wins": 17,
+     "losses": 11,
+     "win_rate": 0.6071428571428571,
+     "p_value": 0.03575380891561508,
+     "dMAE_ci": [
+      -0.2705458468995914,
+      -0.030907476745002296
+     ],
+     "median_gain": 0.14872962276029877
+    }
+   }
+  },
+  "BHDIV7": {
+   "dataset": "BHDIV7",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 7,
+   "n_full_set": 7,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 48.77469439254765,
+   "standard_error": 1.155611986799034,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 5.923905033615106,
+     "RMSE": 6.561334988625271,
+     "MSE": -5.923905033615106,
+     "MaxAE": 8.927901388141692,
+     "metric": 5.923905033615106,
+     "metric_kind": "MAE",
+     "relative_metric": 5.126205942207226
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 5.943841683059575,
+     "RMSE": 6.692466816964412,
+     "MSE": -5.943841683059575,
+     "MaxAE": 8.958267401103356,
+     "metric": 5.943841683059575,
+     "metric_kind": "MAE",
+     "relative_metric": 5.143457969420695,
+     "dMAE": 0.019936649444469268,
+     "improvement_pct": -0.33654573007735716,
+     "wins": 2,
+     "losses": 5,
+     "win_rate": 0.2857142857142857,
+     "p_value": 0.6875,
+     "dMAE_ci": [
+      -0.22018242020475196,
+      0.24646352447764233
+     ],
+     "median_gain": -0.030366012961664524
+    }
+   }
+  },
+  "BHPERI11": {
+   "dataset": "BHPERI11",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 11,
+   "n_full_set": 11,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 23.004325250895374,
+   "standard_error": 1.10234303263047,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 5.1074611496137745,
+     "RMSE": 5.2807306057420735,
+     "MSE": -5.1074611496137745,
+     "MaxAE": 7.203488214362707,
+     "metric": 5.1074611496137745,
+     "metric_kind": "MAE",
+     "relative_metric": 4.6332774811721515
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 4.723122701456988,
+     "RMSE": 4.893316339296588,
+     "MSE": -4.723122701456988,
+     "MaxAE": 6.851673599791111,
+     "metric": 4.723122701456988,
+     "metric_kind": "MAE",
+     "relative_metric": 4.284621539437157,
+     "dMAE": -0.38433844815678686,
+     "improvement_pct": 7.525039092776074,
+     "wins": 10,
+     "losses": 1,
+     "win_rate": 0.9090909090909091,
+     "p_value": 0.001953125,
+     "dMAE_ci": [
+      -0.45482834960223567,
+      -0.2836616451834606
+     ],
+     "median_gain": 0.42667951787328207
+    }
+   }
+  },
+  "BHROT27": {
+   "dataset": "BHROT27",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 27,
+   "n_full_set": 27,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 8.062409205232122,
+   "standard_error": 0.30150099953296,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.7929505985732695,
+     "RMSE": 1.0685431391162488,
+     "MSE": 0.7763876116529604,
+     "MaxAE": 2.1900874161438675,
+     "metric": 0.7929505985732695,
+     "metric_kind": "MAE",
+     "relative_metric": 2.63000985005552
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.820200145784043,
+     "RMSE": 1.1067203211661734,
+     "MSE": 0.8016600070611917,
+     "MaxAE": 2.2405497237022662,
+     "metric": 0.820200145784043,
+     "metric_kind": "MAE",
+     "relative_metric": 2.7203894748427824,
+     "dMAE": 0.02724954721077344,
+     "improvement_pct": -3.4364747639768067,
+     "wins": 13,
+     "losses": 14,
+     "win_rate": 0.48148148148148145,
+     "p_value": 0.03620612621307373,
+     "dMAE_ci": [
+      0.011970895923263737,
+      0.04410762646616947
+     ],
+     "median_gain": -0.0018479511990356912
+    }
+   }
+  },
+  "BSR36": {
+   "dataset": "BSR36",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 30,
+   "n_full_set": 36,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 18.712459089491443,
+   "standard_error": 0.5994907677537084,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.38358428161526725,
+     "RMSE": 0.5426820675769111,
+     "MSE": -0.37428989256890677,
+     "MaxAE": 1.490683898140901,
+     "metric": 0.38358428161526725,
+     "metric_kind": "MAE",
+     "relative_metric": 0.639850189941302
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.20153373119797519,
+     "RMSE": 0.2542505511281988,
+     "MSE": 0.09535267250504556,
+     "MaxAE": 0.575627970659589,
+     "metric": 0.20153373119797519,
+     "metric_kind": "MAE",
+     "relative_metric": 0.3361748704706863,
+     "dMAE": -0.18205055041729207,
+     "improvement_pct": 47.46037810795586,
+     "wins": 20,
+     "losses": 10,
+     "win_rate": 0.6666666666666666,
+     "p_value": 0.016431212425231934,
+     "dMAE_ci": [
+      -0.3336647611133971,
+      -0.04535281601348693
+     ],
+     "median_gain": 0.12555324650691446
+    }
+   }
+  },
+  "BUT14DIOL": {
+   "dataset": "BUT14DIOL",
+   "datatype": "INC",
+   "datatype_long": "Intramolecular Noncovalent",
+   "n": 30,
+   "n_full_set": 64,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 2.929118662102115,
+   "standard_error": 0.08643202832281964,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.40553478409987437,
+     "RMSE": 0.43409379911105156,
+     "MSE": 0.37736118807370617,
+     "MaxAE": 0.7428105205575375,
+     "metric": 0.40553478409987437,
+     "metric_kind": "MAE",
+     "relative_metric": 4.691950333332693
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.37258623759194587,
+     "RMSE": 0.4001476306994211,
+     "MSE": 0.34149632717749795,
+     "MaxAE": 0.6961248893699392,
+     "metric": 0.37258623759194587,
+     "metric_kind": "MAE",
+     "relative_metric": 4.310742728382509,
+     "dMAE": -0.0329485465079285,
+     "improvement_pct": 8.124715264822756,
+     "wins": 28,
+     "losses": 2,
+     "win_rate": 0.9333333333333333,
+     "p_value": 6.146728992462158e-08,
+     "dMAE_ci": [
+      -0.037893251610355776,
+      -0.02629565108321383
+     ],
+     "median_gain": 0.037436005253061344
+    }
+   }
+  },
+  "CARBHB8": {
+   "dataset": "CARBHB8",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 8,
+   "n_full_set": 8,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 7.465409532583017,
+   "standard_error": 0.1472016876447619,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.9544450862382161,
+     "RMSE": 1.2805745725926398,
+     "MSE": 0.9544450862382161,
+     "MaxAE": 2.921597754313858,
+     "metric": 0.9544450862382161,
+     "metric_kind": "MAE",
+     "relative_metric": 6.483927606465723
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.9229121030294899,
+     "RMSE": 1.2752823745047885,
+     "MSE": 0.9229121030294899,
+     "MaxAE": 2.9824749232630126,
+     "metric": 0.9229121030294899,
+     "metric_kind": "MAE",
+     "relative_metric": 6.269711426520668,
+     "dMAE": -0.03153298320872622,
+     "improvement_pct": 3.303802771200608,
+     "wins": 7,
+     "losses": 1,
+     "win_rate": 0.875,
+     "p_value": 0.1484375,
+     "dMAE_ci": [
+      -0.053675562187151395,
+      -0.0025074474208948427
+     ],
+     "median_gain": 0.040827690176859166
+    }
+   }
+  },
+  "CR20": {
+   "dataset": "CR20",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 20,
+   "n_full_set": 20,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 22.305237603757785,
+   "standard_error": 0.8793954453256537,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.8571847067503867,
+     "RMSE": 1.1429173972794149,
+     "MSE": -0.49301881312601425,
+     "MaxAE": 2.6102320960542578,
+     "metric": 0.8571847067503867,
+     "metric_kind": "MAE",
+     "relative_metric": 0.9747431730590304
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.535526953581422,
+     "RMSE": 1.8244337312973746,
+     "MSE": -1.492305927140898,
+     "MaxAE": 3.6334837751254163,
+     "metric": 1.535526953581422,
+     "metric_kind": "MAE",
+     "relative_metric": 1.7461165642184928,
+     "dMAE": 0.6783422468310353,
+     "improvement_pct": -79.13606501481476,
+     "wins": 3,
+     "losses": 17,
+     "win_rate": 0.15,
+     "p_value": 0.0010166168212890625,
+     "dMAE_ci": [
+      0.39507136042832414,
+      0.900264618696951
+     ],
+     "median_gain": -0.9571506909622602
+    }
+   }
+  },
+  "CRBH14": {
+   "dataset": "CRBH14",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 14,
+   "n_full_set": 14,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 45.84951968915987,
+   "standard_error": 0.8623415037332111,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 6.851904712061376,
+     "RMSE": 6.8946009450732975,
+     "MSE": -6.851904712061376,
+     "MaxAE": 8.204809846108947,
+     "metric": 6.851904712061376,
+     "metric_kind": "MAE",
+     "relative_metric": 7.945697478781215
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 7.122706857026798,
+     "RMSE": 7.167023762510155,
+     "MSE": -7.122706857026798,
+     "MaxAE": 8.555216233093915,
+     "metric": 7.122706857026798,
+     "metric_kind": "MAE",
+     "relative_metric": 8.259728687754778,
+     "dMAE": 0.27080214496542165,
+     "improvement_pct": -3.9522170308166995,
+     "wins": 0,
+     "losses": 14,
+     "win_rate": 0.0,
+     "p_value": 0.0001220703125,
+     "dMAE_ci": [
+      0.2395823024440695,
+      0.3020058934005499
+     ],
+     "median_gain": -0.2652022586424394
+    }
+   }
+  },
+  "DARC": {
+   "dataset": "DARC",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 14,
+   "n_full_set": 14,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 34.941119655197014,
+   "standard_error": 1.365807656411657,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 2.5467176488763945,
+     "RMSE": 2.846064908162297,
+     "MSE": 1.3579143013748198,
+     "MaxAE": 4.057652530236767,
+     "metric": 2.5467176488763945,
+     "metric_kind": "MAE",
+     "relative_metric": 1.8646239365558286
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 2.7511015720844436,
+     "RMSE": 3.1201190487952553,
+     "MSE": 1.8745999938369506,
+     "MaxAE": 4.610954931053124,
+     "metric": 2.7511015720844436,
+     "metric_kind": "MAE",
+     "relative_metric": 2.0142672060517843,
+     "dMAE": 0.2043839232080491,
+     "improvement_pct": -8.025386061082301,
+     "wins": 4,
+     "losses": 10,
+     "win_rate": 0.2857142857142857,
+     "p_value": 0.3575439453125,
+     "dMAE_ci": [
+      -0.08716181234589596,
+      0.42893546245904884
+     ],
+     "median_gain": -0.4721280176889753
+    }
+   }
+  },
+  "DIE60": {
+   "dataset": "DIE60",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 30,
+   "n_full_set": 60,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 5.263314549681894,
+   "standard_error": 0.5383447583043153,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.8923157480396506,
+     "RMSE": 2.0125356830743444,
+     "MSE": 1.8923157480396506,
+     "MaxAE": 2.9850698294992206,
+     "metric": 1.8923157480396506,
+     "metric_kind": "MAE",
+     "relative_metric": 3.515063012780303
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.9353735660037357,
+     "RMSE": 2.071142635763757,
+     "MSE": 1.9353735660037357,
+     "MaxAE": 3.117994648608077,
+     "metric": 1.9353735660037357,
+     "metric_kind": "MAE",
+     "relative_metric": 3.59504487811825,
+     "dMAE": 0.04305781796408503,
+     "improvement_pct": -2.275403457836827,
+     "wins": 9,
+     "losses": 21,
+     "win_rate": 0.3,
+     "p_value": 0.001718590036034584,
+     "dMAE_ci": [
+      0.021102711816663112,
+      0.06637795093501364
+     ],
+     "median_gain": -0.04439790049627823
+    }
+   }
+  },
+  "DS14": {
+   "dataset": "DS14",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 14,
+   "n_full_set": 14,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 3.703638983828101,
+   "standard_error": 0.1132326133603672,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.4304308759029202,
+     "RMSE": 0.5298681963942564,
+     "MSE": -0.42733111189350864,
+     "MaxAE": 1.0336211650067684,
+     "metric": 0.4304308759029202,
+     "metric_kind": "MAE",
+     "relative_metric": 3.8012977280057747
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.37411812815776574,
+     "RMSE": 0.4681077966406005,
+     "MSE": -0.34904234139726714,
+     "MaxAE": 0.9366402721511013,
+     "metric": 0.37411812815776574,
+     "metric_kind": "MAE",
+     "relative_metric": 3.30397857167811,
+     "dMAE": -0.056312747745154434,
+     "improvement_pct": 13.082878319782818,
+     "wins": 12,
+     "losses": 2,
+     "win_rate": 0.8571428571428571,
+     "p_value": 0.013427734375,
+     "dMAE_ci": [
+      -0.08239761076431622,
+      -0.022359886646221225
+     ],
+     "median_gain": 0.07128002155874591
+    }
+   }
+  },
+  "EIE22": {
+   "dataset": "EIE22",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 22,
+   "n_full_set": 22,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 4.969835545032558,
+   "standard_error": 0.3118855125097666,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 2.0168793108223375,
+     "RMSE": 2.220748487604143,
+     "MSE": 1.9901144741810732,
+     "MaxAE": 3.8094832234415925,
+     "metric": 2.0168793108223375,
+     "metric_kind": "MAE",
+     "relative_metric": 6.466729713067963
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 2.037587801832246,
+     "RMSE": 2.2538173135863273,
+     "MSE": 2.0079461022983587,
+     "MaxAE": 3.8654206471400805,
+     "metric": 2.037587801832246,
+     "metric_kind": "MAE",
+     "relative_metric": 6.533127446144007,
+     "dMAE": 0.02070849100990868,
+     "improvement_pct": -1.0267590578568262,
+     "wins": 7,
+     "losses": 15,
+     "win_rate": 0.3181818181818182,
+     "p_value": 0.09173250198364258,
+     "dMAE_ci": [
+      -0.0020020275500309136,
+      0.04301014433727291
+     ],
+     "median_gain": -0.022276284649194622
+    }
+   }
+  },
+  "FH51": {
+   "dataset": "FH51",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 30,
+   "n_full_set": 51,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 44.09143093087065,
+   "standard_error": 1.137318028449862,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 2.1418132431799033,
+     "RMSE": 3.2916392610643466,
+     "MSE": -0.2126917515206383,
+     "MaxAE": 10.139363110709464,
+     "metric": 2.1418132431799033,
+     "metric_kind": "MAE",
+     "relative_metric": 1.883214008397585
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 2.0240963711427775,
+     "RMSE": 3.1553808300862443,
+     "MSE": -0.2945235775521461,
+     "MaxAE": 9.83449993181014,
+     "metric": 2.0240963711427775,
+     "metric_kind": "MAE",
+     "relative_metric": 1.7797100903267784,
+     "dMAE": -0.11771687203712577,
+     "improvement_pct": 5.496131486345378,
+     "wins": 22,
+     "losses": 8,
+     "win_rate": 0.7333333333333333,
+     "p_value": 0.10039735585451126,
+     "dMAE_ci": [
+      -0.2563468415543566,
+      0.02906109587475968
+     ],
+     "median_gain": 0.12504621789737824
+    }
+   }
+  },
+  "HB49": {
+   "dataset": "HB49",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 30,
+   "n_full_set": 49,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 13.988854254074896,
+   "standard_error": 0.2375355865658054,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.228927936558381,
+     "RMSE": 2.0792086404841537,
+     "MSE": -1.1916625132112155,
+     "MaxAE": 9.542761856463123,
+     "metric": 1.228927936558381,
+     "metric_kind": "MAE",
+     "relative_metric": 5.173658205600812
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.155656021528803,
+     "RMSE": 2.0256174236674247,
+     "MSE": -1.0979677018528529,
+     "MaxAE": 9.396855184798504,
+     "metric": 1.155656021528803,
+     "metric_kind": "MAE",
+     "relative_metric": 4.865191099307754,
+     "dMAE": -0.07327191502957797,
+     "improvement_pct": 5.962262948857388,
+     "wins": 27,
+     "losses": 3,
+     "win_rate": 0.9,
+     "p_value": 7.056817412376404e-05,
+     "dMAE_ci": [
+      -0.09568720328801432,
+      -0.04792783564457235
+     ],
+     "median_gain": 0.08869048717290307
+    }
+   }
+  },
+  "HSG": {
+   "dataset": "HSG",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 21,
+   "n_full_set": 21,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 6.6256842226484025,
+   "standard_error": 0.1249911227682356,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.43879190007770397,
+     "RMSE": 0.8068450803446396,
+     "MSE": -0.3638225206723291,
+     "MaxAE": 2.5635345820447135,
+     "metric": 0.43879190007770397,
+     "metric_kind": "MAE",
+     "relative_metric": 3.510584514800563
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.40400864734806613,
+     "RMSE": 0.7519478422598656,
+     "MSE": -0.2733787247954763,
+     "MaxAE": 2.4137250847567877,
+     "metric": 0.40400864734806613,
+     "metric_kind": "MAE",
+     "relative_metric": 3.232298729704172,
+     "dMAE": -0.03478325272963784,
+     "improvement_pct": 7.927049866571878,
+     "wins": 14,
+     "losses": 7,
+     "win_rate": 0.6666666666666666,
+     "p_value": 0.07598018646240234,
+     "dMAE_ci": [
+      -0.06816671255040528,
+      -0.0010625213851589777
+     ],
+     "median_gain": 0.05814991635785205
+    }
+   }
+  },
+  "ICONF": {
+   "dataset": "ICONF",
+   "datatype": "INC",
+   "datatype_long": "Intramolecular Noncovalent",
+   "n": 17,
+   "n_full_set": 17,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 4.54055466449991,
+   "standard_error": 0.2309765896864169,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.3010512023960328,
+     "RMSE": 0.4075237645106359,
+     "MSE": 0.18605396139643315,
+     "MaxAE": 1.0886890275781038,
+     "metric": 0.3010512023960328,
+     "metric_kind": "MAE",
+     "relative_metric": 1.3033840477286118
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.30958410899403993,
+     "RMSE": 0.4134943521754877,
+     "MSE": 0.1929228783174963,
+     "MaxAE": 1.109291151099562,
+     "metric": 0.30958410899403993,
+     "metric_kind": "MAE",
+     "relative_metric": 1.340326781230703,
+     "dMAE": 0.00853290659800715,
+     "improvement_pct": -2.834370542317952,
+     "wins": 6,
+     "losses": 11,
+     "win_rate": 0.35294117647058826,
+     "p_value": 0.0347900390625,
+     "dMAE_ci": [
+      0.0018924434162688225,
+      0.015061971386431937
+     ],
+     "median_gain": -0.008955865464451707
+    }
+   }
+  },
+  "INV23": {
+   "dataset": "INV23",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 19,
+   "n_full_set": 23,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 35.838693334603896,
+   "standard_error": 1.124860652761662,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.2497733054368017,
+     "RMSE": 1.9164763412153407,
+     "MSE": -0.7049742553373816,
+     "MaxAE": 6.453002604705219,
+     "metric": 1.2497733054368017,
+     "metric_kind": "MAE",
+     "relative_metric": 1.111047223821426
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.3499768287565275,
+     "RMSE": 2.056232405053172,
+     "MSE": -0.7926794759245349,
+     "MaxAE": 6.80575154639029,
+     "metric": 1.3499768287565275,
+     "metric_kind": "MAE",
+     "relative_metric": 1.20012805625495,
+     "dMAE": 0.10020352331972582,
+     "improvement_pct": -8.017735927293167,
+     "wins": 5,
+     "losses": 14,
+     "win_rate": 0.2631578947368421,
+     "p_value": 0.005329132080078125,
+     "dMAE_ci": [
+      0.03915590081579821,
+      0.16853869385472658
+     ],
+     "median_gain": -0.05320726143710086
+    }
+   }
+  },
+  "ISO34": {
+   "dataset": "ISO34",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 30,
+   "n_full_set": 34,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 20.56562058756373,
+   "standard_error": 0.8677496629213834,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.3487605326868821,
+     "RMSE": 2.1653214816177146,
+     "MSE": -0.08032796835721798,
+     "MaxAE": 7.513295793724986,
+     "metric": 1.3487605326868821,
+     "metric_kind": "MAE",
+     "relative_metric": 1.5543198578102788
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.3574350535609083,
+     "RMSE": 2.1463423824433843,
+     "MSE": 0.04581216366767249,
+     "MaxAE": 7.468891526903512,
+     "metric": 1.3574350535609083,
+     "metric_kind": "MAE",
+     "relative_metric": 1.5643164285318651,
+     "dMAE": 0.008674520874026204,
+     "improvement_pct": -0.6431475909771459,
+     "wins": 16,
+     "losses": 14,
+     "win_rate": 0.5333333333333333,
+     "p_value": 0.6701805889606476,
+     "dMAE_ci": [
+      -0.08711920639699366,
+      0.0951567069321029
+     ],
+     "median_gain": 0.007891409594799947
+    }
+   }
+  },
+  "ISOL23": {
+   "dataset": "ISOL23",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 9,
+   "n_full_set": 23,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 19.165510032376208,
+   "standard_error": 1.813936964022825,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.44676139248184,
+     "RMSE": 2.4886001205451738,
+     "MSE": -1.0265923372892207,
+     "MaxAE": 7.074184007576746,
+     "metric": 1.44676139248184,
+     "metric_kind": "MAE",
+     "relative_metric": 0.7975808537873951
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.5113334535824852,
+     "RMSE": 2.608755667227624,
+     "MSE": -1.064206352543214,
+     "MaxAE": 7.383666687087342,
+     "metric": 1.5113334535824852,
+     "metric_kind": "MAE",
+     "relative_metric": 0.8331785963668514,
+     "dMAE": 0.06457206110064506,
+     "improvement_pct": -4.463214282341003,
+     "wins": 4,
+     "losses": 5,
+     "win_rate": 0.4444444444444444,
+     "p_value": 0.359375,
+     "dMAE_ci": [
+      -0.0859231789066625,
+      0.21478537646264892
+     ],
+     "median_gain": -0.1629219236087005
+    }
+   }
+  },
+  "MCONF": {
+   "dataset": "MCONF",
+   "datatype": "INC",
+   "datatype_long": "Intramolecular Noncovalent",
+   "n": 30,
+   "n_full_set": 51,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 5.514604174299538,
+   "standard_error": 0.2276417240984313,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.6180808007930512,
+     "RMSE": 0.754079467039315,
+     "MSE": 0.5600442038367986,
+     "MaxAE": 1.2954141538570791,
+     "metric": 0.6180808007930512,
+     "metric_kind": "MAE",
+     "relative_metric": 2.7151472483392176
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.6144698565536454,
+     "RMSE": 0.7574064510335226,
+     "MSE": 0.5401476000854992,
+     "MaxAE": 1.2922836066897858,
+     "metric": 0.6144698565536454,
+     "metric_kind": "MAE",
+     "relative_metric": 2.6992848476580296,
+     "dMAE": -0.003610944239405778,
+     "improvement_pct": 0.5842188003207063,
+     "wins": 16,
+     "losses": 14,
+     "win_rate": 0.5333333333333333,
+     "p_value": 0.8871948085725307,
+     "dMAE_ci": [
+      -0.021437198481102242,
+      0.014180073278623377
+     ],
+     "median_gain": 0.001749457508937624
+    }
+   }
+  },
+  "NBC10": {
+   "dataset": "NBC10",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 30,
+   "n_full_set": 184,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 2.4654053347058325,
+   "standard_error": 0.1518243460762598,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.1436262951727054,
+     "RMSE": 0.20510675862434,
+     "MSE": -0.07778951687071908,
+     "MaxAE": 0.5485347743037927,
+     "metric": 0.1436262951727054,
+     "metric_kind": "MAE",
+     "relative_metric": 0.9460030547443516
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.11933746074737649,
+     "RMSE": 0.1970821220169142,
+     "MSE": 0.011007848116421685,
+     "MaxAE": 0.6817803696745024,
+     "metric": 0.11933746074737649,
+     "metric_kind": "MAE",
+     "relative_metric": 0.7860232158512609,
+     "dMAE": -0.024288834425328906,
+     "improvement_pct": 16.911133435644544,
+     "wins": 22,
+     "losses": 8,
+     "win_rate": 0.7333333333333333,
+     "p_value": 0.03841841779649258,
+     "dMAE_ci": [
+      -0.06502578496669437,
+      0.01854596000535864
+     ],
+     "median_gain": 0.012581077486189196
+    }
+   }
+  },
+  "NBPRC": {
+   "dataset": "NBPRC",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 12,
+   "n_full_set": 12,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 30.909235405288616,
+   "standard_error": 1.228716278816153,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.7805470357698647,
+     "RMSE": 2.3153580199994788,
+     "MSE": -0.9064193600366117,
+     "MaxAE": 5.147271663408109,
+     "metric": 1.7805470357698647,
+     "metric_kind": "MAE",
+     "relative_metric": 1.4491116187419533
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.8150579846360353,
+     "RMSE": 2.36049481623591,
+     "MSE": -0.8428677346542403,
+     "MaxAE": 5.324877735411764,
+     "metric": 1.8150579846360353,
+     "metric_kind": "MAE",
+     "relative_metric": 1.4771986144635543,
+     "dMAE": 0.034510948866170565,
+     "improvement_pct": -1.9382216910236736,
+     "wins": 6,
+     "losses": 6,
+     "win_rate": 0.5,
+     "p_value": 1.0,
+     "dMAE_ci": [
+      -0.08363503609285401,
+      0.1696562942402824
+     ],
+     "median_gain": -0.000789813982045473
+    }
+   }
+  },
+  "PArel": {
+   "dataset": "PArel",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 20,
+   "n_full_set": 20,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 6.234883596529799,
+   "standard_error": 0.679906640856077,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.5440239383774297,
+     "RMSE": 2.211934465648257,
+     "MSE": 0.6805581108324369,
+     "MaxAE": 6.868704334280966,
+     "metric": 1.5440239383774297,
+     "metric_kind": "MAE",
+     "relative_metric": 2.270935221978909
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.5966894539036236,
+     "RMSE": 2.2706879920717142,
+     "MSE": 0.7098910603610976,
+     "MaxAE": 6.984561739799712,
+     "metric": 1.5966894539036236,
+     "metric_kind": "MAE",
+     "relative_metric": 2.3483951442115885,
+     "dMAE": 0.05266551552619392,
+     "improvement_pct": -3.4109261014138545,
+     "wins": 6,
+     "losses": 14,
+     "win_rate": 0.3,
+     "p_value": 0.0014324188232421875,
+     "dMAE_ci": [
+      0.022311363115174433,
+      0.09031493167035771
+     ],
+     "median_gain": -0.02507549512275098
+    }
+   }
+  },
+  "PNICO23": {
+   "dataset": "PNICO23",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 23,
+   "n_full_set": 23,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 5.02131535502587,
+   "standard_error": 0.2158999722681703,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.0738395646724228,
+     "RMSE": 1.577791269622433,
+     "MSE": 1.0647416209356906,
+     "MaxAE": 5.444449190165358,
+     "metric": 1.0738395646724228,
+     "metric_kind": "MAE",
+     "relative_metric": 4.973782781864381
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.9816883111157455,
+     "RMSE": 1.5056063734604554,
+     "MSE": 0.957427930516337,
+     "MaxAE": 5.364295216647262,
+     "metric": 0.9816883111157455,
+     "metric_kind": "MAE",
+     "relative_metric": 4.54695894956571,
+     "dMAE": -0.0921512535566773,
+     "improvement_pct": 8.581473116497458,
+     "wins": 21,
+     "losses": 2,
+     "win_rate": 0.9130434782608695,
+     "p_value": 4.5299530029296875e-06,
+     "dMAE_ci": [
+      -0.11356128352672536,
+      -0.06781280271499955
+     ],
+     "median_gain": 0.10534452427530372
+    }
+   }
+  },
+  "PX9": {
+   "dataset": "PX9",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 9,
+   "n_full_set": 9,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 38.86941188331308,
+   "standard_error": 1.146826142817702,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 9.644248647032576,
+     "RMSE": 10.023708196861007,
+     "MSE": -9.644248647032576,
+     "MaxAE": 14.956370828496944,
+     "metric": 9.644248647032576,
+     "metric_kind": "MAE",
+     "relative_metric": 8.409512381133094
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 9.679565695452833,
+     "RMSE": 10.06135351725311,
+     "MSE": -9.679565695452833,
+     "MaxAE": 15.06672917895623,
+     "metric": 9.679565695452833,
+     "metric_kind": "MAE",
+     "relative_metric": 8.440307849689022,
+     "dMAE": 0.03531704842025718,
+     "improvement_pct": -0.3661980286159858,
+     "wins": 3,
+     "losses": 6,
+     "win_rate": 0.3333333333333333,
+     "p_value": 0.65234375,
+     "dMAE_ci": [
+      -0.04843146396456747,
+      0.12383837200196836
+     ],
+     "median_gain": -0.07527765427960631
+    }
+   }
+  },
+  "Pentane13": {
+   "dataset": "Pentane13",
+   "datatype": "INC",
+   "datatype_long": "Intramolecular Noncovalent",
+   "n": 13,
+   "n_full_set": 13,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 6.750292928141271,
+   "standard_error": 0.08066624803541583,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.2451278076325423,
+     "RMSE": 0.28501356025663654,
+     "MSE": 0.2451278076325423,
+     "MaxAE": 0.6463115190563862,
+     "metric": 0.2451278076325423,
+     "metric_kind": "MAE",
+     "relative_metric": 3.0387902450219455
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.23909687503412444,
+     "RMSE": 0.2796948976983827,
+     "MSE": 0.23909687503412444,
+     "MaxAE": 0.6557313855588696,
+     "metric": 0.23909687503412444,
+     "metric_kind": "MAE",
+     "relative_metric": 2.9640262297702376,
+     "dMAE": -0.00603093259841786,
+     "improvement_pct": 2.4603216814383218,
+     "wins": 10,
+     "losses": 3,
+     "win_rate": 0.7692307692307693,
+     "p_value": 0.19091796875,
+     "dMAE_ci": [
+      -0.012818418872354095,
+      0.0007655911892031146
+     ],
+     "median_gain": 0.005700417838023331
+    }
+   }
+  },
+  "RC21": {
+   "dataset": "RC21",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 21,
+   "n_full_set": 21,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 43.9412749252386,
+   "standard_error": 1.625124128209805,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 5.192658277860796,
+     "RMSE": 5.879313345776051,
+     "MSE": 4.7274721241680355,
+     "MaxAE": 10.131844298460152,
+     "metric": 5.192658277860796,
+     "metric_kind": "MAE",
+     "relative_metric": 3.1952379438122644
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 3.3251755888313737,
+     "RMSE": 4.112606360521055,
+     "MSE": 1.9321785489567762,
+     "MaxAE": 7.874750795995815,
+     "metric": 3.3251755888313737,
+     "metric_kind": "MAE",
+     "relative_metric": 2.0461056057879725,
+     "dMAE": -1.8674826890294227,
+     "improvement_pct": 35.96390498083698,
+     "wins": 17,
+     "losses": 4,
+     "win_rate": 0.8095238095238095,
+     "p_value": 0.0013742446899414062,
+     "dMAE_ci": [
+      -2.7442383233436662,
+      -0.9319988804614914
+     ],
+     "median_gain": 1.7961179914884662
+    }
+   }
+  },
+  "RSE43": {
+   "dataset": "RSE43",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 30,
+   "n_full_set": 43,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 10.066619073872213,
+   "standard_error": 0.7385734502330391,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.56682194941797,
+     "RMSE": 1.7590188522851116,
+     "MSE": -1.56682194941797,
+     "MaxAE": 4.296662193349398,
+     "metric": 1.56682194941797,
+     "metric_kind": "MAE",
+     "relative_metric": 2.121416561783526
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.6401447612254114,
+     "RMSE": 0.8518904639393065,
+     "MSE": -0.2825367653251153,
+     "MaxAE": 2.4996457330106026,
+     "metric": 0.6401447612254114,
+     "metric_kind": "MAE",
+     "relative_metric": 0.866731346792156,
+     "dMAE": -0.9266771881925586,
+     "improvement_pct": 59.14374562705054,
+     "wins": 27,
+     "losses": 3,
+     "win_rate": 0.9,
+     "p_value": 1.4193356037139893e-06,
+     "dMAE_ci": [
+      -1.2838167689742241,
+      -0.627565404814767
+     ],
+     "median_gain": 0.7421923593156015
+    }
+   }
+  },
+  "S22": {
+   "dataset": "S22",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 22,
+   "n_full_set": 22,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 9.645932587260853,
+   "standard_error": 0.2371118979237902,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.44465130334068376,
+     "RMSE": 0.6455962570469352,
+     "MSE": 0.4401437406291308,
+     "MaxAE": 2.0627667088952713,
+     "metric": 0.44465130334068376,
+     "metric_kind": "MAE",
+     "relative_metric": 1.8752804360901303
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.3540859686308751,
+     "RMSE": 0.5632976646164864,
+     "MSE": 0.3145102201144093,
+     "MaxAE": 1.9157616774885078,
+     "metric": 0.3540859686308751,
+     "metric_kind": "MAE",
+     "relative_metric": 1.493328558083076,
+     "dMAE": -0.09056533470980865,
+     "improvement_pct": 20.367720510293687,
+     "wins": 18,
+     "losses": 4,
+     "win_rate": 0.8181818181818182,
+     "p_value": 5.245208740234375e-05,
+     "dMAE_ci": [
+      -0.128063208359197,
+      -0.05413151155852369
+     ],
+     "median_gain": 0.08891746873987039
+    }
+   }
+  },
+  "S66": {
+   "dataset": "S66",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 30,
+   "n_full_set": 66,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 6.168596288999472,
+   "standard_error": 0.1689582479589781,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.35708783288159657,
+     "RMSE": 0.44430521609224644,
+     "MSE": -0.31919694737704046,
+     "MaxAE": 0.8677910840357033,
+     "metric": 0.35708783288159657,
+     "metric_kind": "MAE",
+     "relative_metric": 2.1134678963307847
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.28565349787832106,
+     "RMSE": 0.3761610304917732,
+     "MSE": -0.20059465689361325,
+     "MaxAE": 0.768790283541696,
+     "metric": 0.28565349787832106,
+     "metric_kind": "MAE",
+     "relative_metric": 1.6906750710842822,
+     "dMAE": -0.0714343350032755,
+     "improvement_pct": 20.00469588303272,
+     "wins": 23,
+     "losses": 7,
+     "win_rate": 0.7666666666666667,
+     "p_value": 0.001718590036034584,
+     "dMAE_ci": [
+      -0.10527417363364779,
+      -0.0376170971175758
+     ],
+     "median_gain": 0.09879779037781766
+    }
+   }
+  },
+  "SCONF": {
+   "dataset": "SCONF",
+   "datatype": "INC",
+   "datatype_long": "Intramolecular Noncovalent",
+   "n": 17,
+   "n_full_set": 17,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 4.96349991286015,
+   "standard_error": 0.1533801504114762,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.7651996065493125,
+     "RMSE": 0.8499152135596608,
+     "MSE": 0.3908038406421905,
+     "MaxAE": 1.7870377391866983,
+     "metric": 0.7651996065493125,
+     "metric_kind": "MAE",
+     "relative_metric": 4.988908959187321
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.7600728623035211,
+     "RMSE": 0.8391657195785747,
+     "MSE": 0.4030440864599528,
+     "MaxAE": 1.6885288165228927,
+     "metric": 0.7600728623035211,
+     "metric_kind": "MAE",
+     "relative_metric": 4.955483876267284,
+     "dMAE": -0.005126744245791404,
+     "improvement_pct": 0.6699878308759971,
+     "wins": 9,
+     "losses": 8,
+     "win_rate": 0.5294117647058824,
+     "p_value": 0.5790557861328125,
+     "dMAE_ci": [
+      -0.01941437700961217,
+      0.007323560247067546
+     ],
+     "median_gain": 0.0008437641717868871
+    }
+   }
+  },
+  "Styrene42": {
+   "dataset": "Styrene42",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 30,
+   "n_full_set": 42,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 67.28844245467982,
+   "standard_error": 1.816744005487891,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 2.963813338565186,
+     "RMSE": 4.080730164661683,
+     "MSE": 2.635139674271121,
+     "MaxAE": 10.094523043418747,
+     "metric": 2.963813338565186,
+     "metric_kind": "MAE",
+     "relative_metric": 1.6313874324683664
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 2.803124022429721,
+     "RMSE": 3.957657972964734,
+     "MSE": 2.437590893137516,
+     "MaxAE": 9.570612693042818,
+     "metric": 2.803124022429721,
+     "metric_kind": "MAE",
+     "relative_metric": 1.5429383633369609,
+     "dMAE": -0.160689316135465,
+     "improvement_pct": 5.421708379693588,
+     "wins": 23,
+     "losses": 7,
+     "win_rate": 0.7666666666666667,
+     "p_value": 0.000283263623714447,
+     "dMAE_ci": [
+      -0.23620896857477763,
+      -0.09003177448016754
+     ],
+     "median_gain": 0.14736413256852465
+    }
+   }
+  },
+  "TAUT15": {
+   "dataset": "TAUT15",
+   "datatype": "ISO",
+   "datatype_long": "Isomerization",
+   "n": 15,
+   "n_full_set": 15,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 4.523378919054049,
+   "standard_error": 0.613296790522916,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 1.6134081889073728,
+     "RMSE": 2.1551414544576457,
+     "MSE": 0.4327450375619206,
+     "MaxAE": 5.235673019350359,
+     "metric": 1.6134081889073728,
+     "metric_kind": "MAE",
+     "relative_metric": 2.6307135694151125
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 1.6527767459089227,
+     "RMSE": 2.2524033487371664,
+     "MSE": 0.465558797278296,
+     "MaxAE": 5.47970614979842,
+     "metric": 1.6527767459089227,
+     "metric_kind": "MAE",
+     "relative_metric": 2.694905258675353,
+     "dMAE": 0.03936855700154984,
+     "improvement_pct": -2.440086598804912,
+     "wins": 10,
+     "losses": 5,
+     "win_rate": 0.6666666666666666,
+     "p_value": 1.0,
+     "dMAE_ci": [
+      -0.017652573458329927,
+      0.10664211796267327
+     ],
+     "median_gain": 0.0043877335866620015
+    }
+   }
+  },
+  "WCPT26": {
+   "dataset": "WCPT26",
+   "datatype": "BH",
+   "datatype_long": "Barrier Height",
+   "n": 26,
+   "n_full_set": 26,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 36.11347045903952,
+   "standard_error": 1.262107330084094,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 8.815878027010125,
+     "RMSE": 9.861501894811871,
+     "MSE": -8.815878027010125,
+     "MaxAE": 18.8907396182498,
+     "metric": 8.815878027010125,
+     "metric_kind": "MAE",
+     "relative_metric": 6.985046213480691
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 8.857734483994774,
+     "RMSE": 9.864591713599493,
+     "MSE": -8.857734483994774,
+     "MaxAE": 18.93650305199128,
+     "metric": 8.857734483994774,
+     "metric_kind": "MAE",
+     "relative_metric": 7.018210157613604,
+     "dMAE": 0.04185645698464846,
+     "improvement_pct": -0.4747848921730594,
+     "wins": 11,
+     "losses": 15,
+     "win_rate": 0.4230769230769231,
+     "p_value": 0.3031630218029022,
+     "dMAE_ci": [
+      -0.024100506078086042,
+      0.10566839819571305
+     ],
+     "median_gain": -0.03279413513940321
+    }
+   }
+  },
+  "X40": {
+   "dataset": "X40",
+   "datatype": "NC",
+   "datatype_long": "Noncovalent",
+   "n": 30,
+   "n_full_set": 40,
+   "complete": false,
+   "unit": "kcal/mol",
+   "ref_rms": 4.715906146264406,
+   "standard_error": 0.182094206893113,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 0.44305507371590386,
+     "RMSE": 0.783304623905796,
+     "MSE": -0.38661727856710487,
+     "MaxAE": 2.956356661969613,
+     "metric": 0.44305507371590386,
+     "metric_kind": "MAE",
+     "relative_metric": 2.433109110252868
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 0.4102231615029243,
+     "RMSE": 0.7581867888437375,
+     "MSE": -0.29071617475999695,
+     "MaxAE": 2.939682036727209,
+     "metric": 0.4102231615029243,
+     "metric_kind": "MAE",
+     "relative_metric": 2.252807316070852,
+     "dMAE": -0.03283191221297954,
+     "improvement_pct": 7.410345611803567,
+     "wins": 22,
+     "losses": 8,
+     "win_rate": 0.7333333333333333,
+     "p_value": 0.12413446232676506,
+     "dMAE_ci": [
+      -0.06711632181085585,
+      0.0040405879603529074
+     ],
+     "median_gain": 0.05553617711761194
+    }
+   }
+  },
+  "YBDE18": {
+   "dataset": "YBDE18",
+   "datatype": "TC",
+   "datatype_long": "Thermochemistry",
+   "n": 18,
+   "n_full_set": 18,
+   "complete": true,
+   "unit": "kcal/mol",
+   "ref_rms": 53.114080869864424,
+   "standard_error": 1.727651721197919,
+   "methods": {
+    "r2SCAN": {
+     "MAE": 3.324834741820078,
+     "RMSE": 3.841604623214076,
+     "MSE": -2.8296720700716227,
+     "MaxAE": 7.178144961015761,
+     "metric": 3.324834741820078,
+     "metric_kind": "MAE",
+     "relative_metric": 1.9244820591008378
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "MAE": 2.9485713311451938,
+     "RMSE": 3.488634163854259,
+     "MSE": -1.2107147834845038,
+     "MaxAE": 7.3311572556120055,
+     "metric": 2.9485713311451938,
+     "metric_kind": "MAE",
+     "relative_metric": 1.7066931343666383,
+     "dMAE": -0.3762634106748841,
+     "improvement_pct": 11.316755264320607,
+     "wins": 8,
+     "losses": 10,
+     "win_rate": 0.4444444444444444,
+     "p_value": 0.7987060546875,
+     "dMAE_ci": [
+      -1.3068625384081365,
+      0.5650185688067119
+     ],
+     "median_gain": -0.07769812806234455
+    }
+   }
+  }
+ },
+ "by_datatype": {
+  "INC": {
+   "n_sets": 7,
+   "n_sets_kcal": 7,
+   "n_points": 152,
+   "methods": {
+    "r2SCAN": {
+     "mean_set_MAE": 0.3822264406531507,
+     "mean_relative_metric": 2.9595321339702205
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "mean_set_MAE": 0.37759225060485246,
+     "mean_relative_metric": 2.9040730385683107,
+     "mean_dMAE": -0.004634190048298237,
+     "sets_improved": 4,
+     "sets_total": 7,
+     "mean_dMAE_ci": [
+      -0.008814147954217021,
+      -0.0005587943361049006
+     ]
+    }
+   }
+  },
+  "NC": {
+   "n_sets": 10,
+   "n_sets_kcal": 10,
+   "n_points": 212,
+   "methods": {
+    "r2SCAN": {
+     "mean_set_MAE": 0.5661692695104972,
+     "mean_relative_metric": 3.2602663538318453
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "mean_set_MAE": 0.5257270091800352,
+     "mean_relative_metric": 3.0636296677448933,
+     "mean_dMAE": -0.04044226033046194,
+     "sets_improved": 9,
+     "sets_total": 10,
+     "mean_dMAE_ci": [
+      -0.0498549440991766,
+      -0.03069466337845252
+     ]
+    }
+   }
+  },
+  "TC": {
+   "n_sets": 10,
+   "n_sets_kcal": 10,
+   "n_points": 219,
+   "methods": {
+    "r2SCAN": {
+     "mean_set_MAE": 2.3409145738522428,
+     "mean_relative_metric": 1.7417512386011391
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "mean_set_MAE": 2.261702505755358,
+     "mean_relative_metric": 1.6186265398999011,
+     "mean_dMAE": -0.07921206809688464,
+     "sets_improved": 6,
+     "sets_total": 10,
+     "mean_dMAE_ci": [
+      -0.3179205463356466,
+      0.16027044459470943
+     ]
+    }
+   }
+  },
+  "ISO": {
+   "n_sets": 8,
+   "n_sets_kcal": 8,
+   "n_points": 167,
+   "methods": {
+    "r2SCAN": {
+     "mean_set_MAE": 1.6479885071645366,
+     "mean_relative_metric": 2.697581269659714
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "mean_set_MAE": 1.65263599427827,
+     "mean_relative_metric": 2.698679864950755,
+     "mean_dMAE": 0.004647487113733417,
+     "sets_improved": 2,
+     "sets_total": 8,
+     "mean_dMAE_ci": [
+      -0.02128040218055241,
+      0.03074779524142566
+     ]
+    }
+   }
+  },
+  "BH": {
+   "n_sets": 8,
+   "n_sets_kcal": 8,
+   "n_points": 141,
+   "methods": {
+    "r2SCAN": {
+     "mean_set_MAE": 5.484741176704511,
+     "mean_relative_metric": 5.1893588806490385
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "mean_set_MAE": 5.4795735418057205,
+     "mean_relative_metric": 5.201404736765419,
+     "mean_dMAE": -0.005167634898790574,
+     "sets_improved": 2,
+     "sets_total": 8,
+     "mean_dMAE_ci": [
+      -0.04463960983534636,
+      0.0324860521263807
+     ]
+    }
+   }
+  }
+ },
+ "overall": {
+  "n_sets": 43,
+  "n_sets_kcal": 43,
+  "n_points": 891,
+  "methods": {
+   "r2SCAN": {
+    "mean_set_MAE": 2.065308395096555,
+    "mean_relative_metric": 3.1123819084788695
+   },
+   "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+    "mean_set_MAE": 2.036630632378136,
+    "mean_relative_metric": 3.031436050236175,
+    "mean_dMAE": -0.028677762718419153,
+    "sets_improved": 23,
+    "sets_total": 43,
+    "mean_dMAE_ci": [
+     -0.08818264693891467,
+     0.031802574571684235
+    ]
+   }
+  }
+ },
+ "methods": [
+  "r2SCAN",
+  "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)"
+ ],
+ "dropped": {},
+ "training_overlap": [
+  "AlkIsod14_1",
+  "AlkIsod14_2",
+  "AlkIsod14_7",
+  "AlkIsomer11_1",
+  "BDE99_10",
+  "BDE99_11",
+  "BDE99_15",
+  "BDE99_26",
+  "BDE99_31",
+  "BDE99_37",
+  "BDE99_51",
+  "BDE99_60",
+  "BDE99_71",
+  "BDE99_75",
+  "BDE99_78",
+  "BDE99_85",
+  "BDE99_86",
+  "BH28_BHPERI_6",
+  "DS14_10",
+  "HB49_39",
+  "ISO34_1",
+  "ISO34_25",
+  "ISO34_26",
+  "ISO34_3",
+  "S22_2",
+  "S22_20",
+  "S22_3",
+  "S22_4",
+  "S22_9",
+  "S66_1"
+ ],
+ "without_overlap": {
+  "stats": {
+   "ACONF": {
+    "dataset": "ACONF",
+    "datatype": "INC",
+    "datatype_long": "Intramolecular Noncovalent",
+    "n": 15,
+    "n_full_set": 15,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 2.23280707213216,
+    "standard_error": 0.04732497243293058,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.13881632229498533,
+      "RMSE": 0.15371992565322684,
+      "MSE": 0.13881632229498533,
+      "MaxAE": 0.2999885163690328,
+      "metric": 0.13881632229498533,
+      "metric_kind": "MAE",
+      "relative_metric": 2.933257330296752
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.14164771614493538,
+      "RMSE": 0.158137900910081,
+      "MSE": 0.14164771614493538,
+      "MaxAE": 0.31585691906677216,
+      "metric": 0.14164771614493538,
+      "metric_kind": "MAE",
+      "relative_metric": 2.993086078299991,
+      "dMAE": 0.0028313938499500424,
+      "improvement_pct": -2.0396692572890074,
+      "wins": 8,
+      "losses": 7,
+      "win_rate": 0.5333333333333333,
+      "p_value": 0.33026123046875,
+      "dMAE_ci": [
+       -0.0001809412871949173,
+       0.006260984423022658
+      ],
+      "median_gain": 2.9418689919125107e-05
+     }
+    }
+   },
+   "ADIM6": {
+    "dataset": "ADIM6",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 4,
+    "n_full_set": 6,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 2.664406333291278,
+    "standard_error": 0.1136901985619618,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.14683682654443747,
+      "RMSE": 0.15178015273349596,
+      "MSE": -0.14683682654443747,
+      "MaxAE": 0.1935351483510761,
+      "metric": 0.14683682654443747,
+      "metric_kind": "MAE",
+      "relative_metric": 1.2915522041630578
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.2495867918609852,
+      "RMSE": 0.25874938038699524,
+      "MSE": -0.2495867918609852,
+      "MaxAE": 0.33909927137255247,
+      "metric": 0.2495867918609852,
+      "metric_kind": "MAE",
+      "relative_metric": 2.1953237395830474,
+      "dMAE": 0.10274996531654773,
+      "improvement_pct": -69.97561016170037,
+      "wins": 0,
+      "losses": 4,
+      "win_rate": 0.0,
+      "p_value": NaN,
+      "dMAE_ci": [
+       0.07504634914302677,
+       0.1304535814900687
+      ],
+      "median_gain": -0.09937165351193578
+     }
+    }
+   },
+   "AlkIsod14": {
+    "dataset": "AlkIsod14",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 11,
+    "n_full_set": 14,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 11.439970124600146,
+    "standard_error": 0.8040966288725685,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.7555826373652973,
+      "RMSE": 0.8134712664174227,
+      "MSE": -0.7555826373652973,
+      "MaxAE": 1.4658092849088789,
+      "metric": 0.7555826373652973,
+      "metric_kind": "MAE",
+      "relative_metric": 0.9396664657389584
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.6534364674236373,
+      "RMSE": 0.7085568109832565,
+      "MSE": -0.6534364674236373,
+      "MaxAE": 1.3043792282521043,
+      "metric": 0.6534364674236373,
+      "metric_kind": "MAE",
+      "relative_metric": 0.8126342580739665,
+      "dMAE": -0.10214616994166004,
+      "improvement_pct": 13.518861457410118,
+      "wins": 11,
+      "losses": 0,
+      "win_rate": 1.0,
+      "p_value": 0.0009765625,
+      "dMAE_ci": [
+       -0.11854725054744913,
+       -0.08595052477159147
+      ],
+      "median_gain": 0.10136352834738638
+     }
+    }
+   },
+   "AlkIsomer11": {
+    "dataset": "AlkIsomer11",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 10,
+    "n_full_set": 11,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 1.8425313890344666,
+    "standard_error": 0.1318924441475725,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.3874790090747269,
+      "RMSE": 0.47519806558170485,
+      "MSE": 0.3874790090747269,
+      "MaxAE": 1.082262826310091,
+      "metric": 0.3874790090747269,
+      "metric_kind": "MAE",
+      "relative_metric": 2.937840841293246
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.3538358191890899,
+      "RMSE": 0.4320736860077874,
+      "MSE": 0.3538358191890899,
+      "MaxAE": 0.9693835922064178,
+      "metric": 0.3538358191890899,
+      "metric_kind": "MAE",
+      "relative_metric": 2.6827603467048364,
+      "dMAE": -0.03364318988563697,
+      "improvement_pct": 8.682583855567966,
+      "wins": 10,
+      "losses": 0,
+      "win_rate": 1.0,
+      "p_value": 0.001953125,
+      "dMAE_ci": [
+       -0.052919863481107596,
+       -0.019531291030429054
+      ],
+      "median_gain": 0.0277670982407614
+     }
+    }
+   },
+   "Amino20x4": {
+    "dataset": "Amino20x4",
+    "datatype": "INC",
+    "datatype_long": "Intramolecular Noncovalent",
+    "n": 30,
+    "n_full_set": 80,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 2.9495326723570283,
+    "standard_error": 0.193032731157904,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.20177456080625653,
+      "RMSE": 0.283217630865864,
+      "MSE": 0.1819303591002175,
+      "MaxAE": 0.6923198306292635,
+      "metric": 0.20177456080625653,
+      "metric_kind": "MAE",
+      "relative_metric": 1.0452867738850027
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.20568809761175527,
+      "RMSE": 0.28134489941550944,
+      "MSE": 0.1784368866397937,
+      "MaxAE": 0.7001867568039106,
+      "metric": 0.20568809761175527,
+      "metric_kind": "MAE",
+      "relative_metric": 1.0655607283694233,
+      "dMAE": 0.003913536805498746,
+      "improvement_pct": -1.939559075168309,
+      "wins": 12,
+      "losses": 18,
+      "win_rate": 0.4,
+      "p_value": 0.22064675763249397,
+      "dMAE_ci": [
+       -0.009160178620458252,
+       0.017125631607124405
+      ],
+      "median_gain": -0.0074921219255843635
+     }
+    }
+   },
+   "BDE99nonMR": {
+    "dataset": "BDE99nonMR",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 17,
+    "n_full_set": 83,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 105.96059334972982,
+    "standard_error": 1.930809315364183,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 4.72077585564121,
+      "RMSE": 5.465051076089213,
+      "MSE": -0.19806528380538235,
+      "MaxAE": 10.504202505945326,
+      "metric": 4.72077585564121,
+      "metric_kind": "MAE",
+      "relative_metric": 2.4449725915843703
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 8.363735057888087,
+      "RMSE": 9.907950631862228,
+      "MSE": -7.828302789179849,
+      "MaxAE": 19.028597056733588,
+      "metric": 8.363735057888087,
+      "metric_kind": "MAE",
+      "relative_metric": 4.331725039513054,
+      "dMAE": 3.6429592022468773,
+      "improvement_pct": -77.16865434086712,
+      "wins": 5,
+      "losses": 12,
+      "win_rate": 0.29411764705882354,
+      "p_value": 0.017425537109375,
+      "dMAE_ci": [
+       0.9253273593048738,
+       5.964047472787142
+      ],
+      "median_gain": -4.644607018043068
+     }
+    }
+   },
+   "BH28": {
+    "dataset": "BH28",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 27,
+    "n_full_set": 28,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 34.99874421482919,
+    "standard_error": 1.174950884973305,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 5.446571414325455,
+      "RMSE": 5.949233955136881,
+      "MSE": -5.0927085406567,
+      "MaxAE": 10.600268777085525,
+      "metric": 5.446571414325455,
+      "metric_kind": "MAE",
+      "relative_metric": 4.635573694171226
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 5.280788456638595,
+      "RMSE": 5.8012404715949994,
+      "MSE": -4.94193075419073,
+      "MaxAE": 10.6701216957985,
+      "metric": 5.280788456638595,
+      "metric_kind": "MAE",
+      "relative_metric": 4.494475917398518,
+      "dMAE": -0.16578295768686058,
+      "improvement_pct": 3.0438039837469457,
+      "wins": 17,
+      "losses": 10,
+      "win_rate": 0.6296296296296297,
+      "p_value": 0.02142883837223053,
+      "dMAE_ci": [
+       -0.2914120810260739,
+       -0.036658172144935906
+      ],
+      "median_gain": 0.15019457825141203
+     }
+    }
+   },
+   "BHDIV7": {
+    "dataset": "BHDIV7",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 7,
+    "n_full_set": 7,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 48.77469439254765,
+    "standard_error": 1.155611986799034,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 5.923905033615106,
+      "RMSE": 6.561334988625271,
+      "MSE": -5.923905033615106,
+      "MaxAE": 8.927901388141692,
+      "metric": 5.923905033615106,
+      "metric_kind": "MAE",
+      "relative_metric": 5.126205942207226
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 5.943841683059575,
+      "RMSE": 6.692466816964412,
+      "MSE": -5.943841683059575,
+      "MaxAE": 8.958267401103356,
+      "metric": 5.943841683059575,
+      "metric_kind": "MAE",
+      "relative_metric": 5.143457969420695,
+      "dMAE": 0.019936649444469268,
+      "improvement_pct": -0.33654573007735716,
+      "wins": 2,
+      "losses": 5,
+      "win_rate": 0.2857142857142857,
+      "p_value": 0.6875,
+      "dMAE_ci": [
+       -0.22018242020475196,
+       0.24646352447764233
+      ],
+      "median_gain": -0.030366012961664524
+     }
+    }
+   },
+   "BHPERI11": {
+    "dataset": "BHPERI11",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 11,
+    "n_full_set": 11,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 23.004325250895374,
+    "standard_error": 1.10234303263047,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 5.1074611496137745,
+      "RMSE": 5.2807306057420735,
+      "MSE": -5.1074611496137745,
+      "MaxAE": 7.203488214362707,
+      "metric": 5.1074611496137745,
+      "metric_kind": "MAE",
+      "relative_metric": 4.6332774811721515
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 4.723122701456988,
+      "RMSE": 4.893316339296588,
+      "MSE": -4.723122701456988,
+      "MaxAE": 6.851673599791111,
+      "metric": 4.723122701456988,
+      "metric_kind": "MAE",
+      "relative_metric": 4.284621539437157,
+      "dMAE": -0.38433844815678686,
+      "improvement_pct": 7.525039092776074,
+      "wins": 10,
+      "losses": 1,
+      "win_rate": 0.9090909090909091,
+      "p_value": 0.001953125,
+      "dMAE_ci": [
+       -0.45482834960223567,
+       -0.2836616451834606
+      ],
+      "median_gain": 0.42667951787328207
+     }
+    }
+   },
+   "BHROT27": {
+    "dataset": "BHROT27",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 27,
+    "n_full_set": 27,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 8.062409205232122,
+    "standard_error": 0.30150099953296,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.7929505985732695,
+      "RMSE": 1.0685431391162488,
+      "MSE": 0.7763876116529604,
+      "MaxAE": 2.1900874161438675,
+      "metric": 0.7929505985732695,
+      "metric_kind": "MAE",
+      "relative_metric": 2.63000985005552
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.820200145784043,
+      "RMSE": 1.1067203211661734,
+      "MSE": 0.8016600070611917,
+      "MaxAE": 2.2405497237022662,
+      "metric": 0.820200145784043,
+      "metric_kind": "MAE",
+      "relative_metric": 2.7203894748427824,
+      "dMAE": 0.02724954721077344,
+      "improvement_pct": -3.4364747639768067,
+      "wins": 13,
+      "losses": 14,
+      "win_rate": 0.48148148148148145,
+      "p_value": 0.03620612621307373,
+      "dMAE_ci": [
+       0.011970895923263737,
+       0.04410762646616947
+      ],
+      "median_gain": -0.0018479511990356912
+     }
+    }
+   },
+   "BSR36": {
+    "dataset": "BSR36",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 30,
+    "n_full_set": 36,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 18.712459089491443,
+    "standard_error": 0.5994907677537084,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.38358428161526725,
+      "RMSE": 0.5426820675769111,
+      "MSE": -0.37428989256890677,
+      "MaxAE": 1.490683898140901,
+      "metric": 0.38358428161526725,
+      "metric_kind": "MAE",
+      "relative_metric": 0.639850189941302
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.20153373119797519,
+      "RMSE": 0.2542505511281988,
+      "MSE": 0.09535267250504556,
+      "MaxAE": 0.575627970659589,
+      "metric": 0.20153373119797519,
+      "metric_kind": "MAE",
+      "relative_metric": 0.3361748704706863,
+      "dMAE": -0.18205055041729207,
+      "improvement_pct": 47.46037810795586,
+      "wins": 20,
+      "losses": 10,
+      "win_rate": 0.6666666666666666,
+      "p_value": 0.016431212425231934,
+      "dMAE_ci": [
+       -0.3336647611133971,
+       -0.04535281601348693
+      ],
+      "median_gain": 0.12555324650691446
+     }
+    }
+   },
+   "BUT14DIOL": {
+    "dataset": "BUT14DIOL",
+    "datatype": "INC",
+    "datatype_long": "Intramolecular Noncovalent",
+    "n": 30,
+    "n_full_set": 64,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 2.929118662102115,
+    "standard_error": 0.08643202832281964,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.40553478409987437,
+      "RMSE": 0.43409379911105156,
+      "MSE": 0.37736118807370617,
+      "MaxAE": 0.7428105205575375,
+      "metric": 0.40553478409987437,
+      "metric_kind": "MAE",
+      "relative_metric": 4.691950333332693
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.37258623759194587,
+      "RMSE": 0.4001476306994211,
+      "MSE": 0.34149632717749795,
+      "MaxAE": 0.6961248893699392,
+      "metric": 0.37258623759194587,
+      "metric_kind": "MAE",
+      "relative_metric": 4.310742728382509,
+      "dMAE": -0.0329485465079285,
+      "improvement_pct": 8.124715264822756,
+      "wins": 28,
+      "losses": 2,
+      "win_rate": 0.9333333333333333,
+      "p_value": 6.146728992462158e-08,
+      "dMAE_ci": [
+       -0.037893251610355776,
+       -0.02629565108321383
+      ],
+      "median_gain": 0.037436005253061344
+     }
+    }
+   },
+   "CARBHB8": {
+    "dataset": "CARBHB8",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 8,
+    "n_full_set": 8,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 7.465409532583017,
+    "standard_error": 0.1472016876447619,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.9544450862382161,
+      "RMSE": 1.2805745725926398,
+      "MSE": 0.9544450862382161,
+      "MaxAE": 2.921597754313858,
+      "metric": 0.9544450862382161,
+      "metric_kind": "MAE",
+      "relative_metric": 6.483927606465723
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.9229121030294899,
+      "RMSE": 1.2752823745047885,
+      "MSE": 0.9229121030294899,
+      "MaxAE": 2.9824749232630126,
+      "metric": 0.9229121030294899,
+      "metric_kind": "MAE",
+      "relative_metric": 6.269711426520668,
+      "dMAE": -0.03153298320872622,
+      "improvement_pct": 3.303802771200608,
+      "wins": 7,
+      "losses": 1,
+      "win_rate": 0.875,
+      "p_value": 0.1484375,
+      "dMAE_ci": [
+       -0.053675562187151395,
+       -0.0025074474208948427
+      ],
+      "median_gain": 0.040827690176859166
+     }
+    }
+   },
+   "CR20": {
+    "dataset": "CR20",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 20,
+    "n_full_set": 20,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 22.305237603757785,
+    "standard_error": 0.8793954453256537,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.8571847067503867,
+      "RMSE": 1.1429173972794149,
+      "MSE": -0.49301881312601425,
+      "MaxAE": 2.6102320960542578,
+      "metric": 0.8571847067503867,
+      "metric_kind": "MAE",
+      "relative_metric": 0.9747431730590304
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.535526953581422,
+      "RMSE": 1.8244337312973746,
+      "MSE": -1.492305927140898,
+      "MaxAE": 3.6334837751254163,
+      "metric": 1.535526953581422,
+      "metric_kind": "MAE",
+      "relative_metric": 1.7461165642184928,
+      "dMAE": 0.6783422468310353,
+      "improvement_pct": -79.13606501481476,
+      "wins": 3,
+      "losses": 17,
+      "win_rate": 0.15,
+      "p_value": 0.0010166168212890625,
+      "dMAE_ci": [
+       0.39507136042832414,
+       0.900264618696951
+      ],
+      "median_gain": -0.9571506909622602
+     }
+    }
+   },
+   "CRBH14": {
+    "dataset": "CRBH14",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 14,
+    "n_full_set": 14,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 45.84951968915987,
+    "standard_error": 0.8623415037332111,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 6.851904712061376,
+      "RMSE": 6.8946009450732975,
+      "MSE": -6.851904712061376,
+      "MaxAE": 8.204809846108947,
+      "metric": 6.851904712061376,
+      "metric_kind": "MAE",
+      "relative_metric": 7.945697478781215
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 7.122706857026798,
+      "RMSE": 7.167023762510155,
+      "MSE": -7.122706857026798,
+      "MaxAE": 8.555216233093915,
+      "metric": 7.122706857026798,
+      "metric_kind": "MAE",
+      "relative_metric": 8.259728687754778,
+      "dMAE": 0.27080214496542165,
+      "improvement_pct": -3.9522170308166995,
+      "wins": 0,
+      "losses": 14,
+      "win_rate": 0.0,
+      "p_value": 0.0001220703125,
+      "dMAE_ci": [
+       0.2395823024440695,
+       0.3020058934005499
+      ],
+      "median_gain": -0.2652022586424394
+     }
+    }
+   },
+   "DARC": {
+    "dataset": "DARC",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 14,
+    "n_full_set": 14,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 34.941119655197014,
+    "standard_error": 1.365807656411657,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 2.5467176488763945,
+      "RMSE": 2.846064908162297,
+      "MSE": 1.3579143013748198,
+      "MaxAE": 4.057652530236767,
+      "metric": 2.5467176488763945,
+      "metric_kind": "MAE",
+      "relative_metric": 1.8646239365558286
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 2.7511015720844436,
+      "RMSE": 3.1201190487952553,
+      "MSE": 1.8745999938369506,
+      "MaxAE": 4.610954931053124,
+      "metric": 2.7511015720844436,
+      "metric_kind": "MAE",
+      "relative_metric": 2.0142672060517843,
+      "dMAE": 0.2043839232080491,
+      "improvement_pct": -8.025386061082301,
+      "wins": 4,
+      "losses": 10,
+      "win_rate": 0.2857142857142857,
+      "p_value": 0.3575439453125,
+      "dMAE_ci": [
+       -0.08716181234589596,
+       0.42893546245904884
+      ],
+      "median_gain": -0.4721280176889753
+     }
+    }
+   },
+   "DIE60": {
+    "dataset": "DIE60",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 30,
+    "n_full_set": 60,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 5.263314549681894,
+    "standard_error": 0.5383447583043153,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.8923157480396506,
+      "RMSE": 2.0125356830743444,
+      "MSE": 1.8923157480396506,
+      "MaxAE": 2.9850698294992206,
+      "metric": 1.8923157480396506,
+      "metric_kind": "MAE",
+      "relative_metric": 3.515063012780303
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.9353735660037357,
+      "RMSE": 2.071142635763757,
+      "MSE": 1.9353735660037357,
+      "MaxAE": 3.117994648608077,
+      "metric": 1.9353735660037357,
+      "metric_kind": "MAE",
+      "relative_metric": 3.59504487811825,
+      "dMAE": 0.04305781796408503,
+      "improvement_pct": -2.275403457836827,
+      "wins": 9,
+      "losses": 21,
+      "win_rate": 0.3,
+      "p_value": 0.001718590036034584,
+      "dMAE_ci": [
+       0.021102711816663112,
+       0.06637795093501364
+      ],
+      "median_gain": -0.04439790049627823
+     }
+    }
+   },
+   "DS14": {
+    "dataset": "DS14",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 13,
+    "n_full_set": 14,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 3.5888243859271975,
+    "standard_error": 0.1132326133603672,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.4112896730227958,
+      "RMSE": 0.5165895023763056,
+      "MSE": -0.4079514656280449,
+      "MaxAE": 1.0336211650067684,
+      "metric": 0.4112896730227958,
+      "metric_kind": "MAE",
+      "relative_metric": 3.6322545317739015
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.3562640040370963,
+      "RMSE": 0.4557533011584038,
+      "MSE": -0.3292593106027132,
+      "MaxAE": 0.9366402721511013,
+      "metric": 0.3562640040370963,
+      "metric_kind": "MAE",
+      "relative_metric": 3.1463020543672537,
+      "dMAE": -0.055025668985699494,
+      "improvement_pct": 13.378811235712618,
+      "wins": 11,
+      "losses": 2,
+      "win_rate": 0.8461538461538461,
+      "p_value": 0.021484375,
+      "dMAE_ci": [
+       -0.08354287611271606,
+       -0.017775570347527296
+      ],
+      "median_gain": 0.06951527149942427
+     }
+    }
+   },
+   "EIE22": {
+    "dataset": "EIE22",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 22,
+    "n_full_set": 22,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 4.969835545032558,
+    "standard_error": 0.3118855125097666,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 2.0168793108223375,
+      "RMSE": 2.220748487604143,
+      "MSE": 1.9901144741810732,
+      "MaxAE": 3.8094832234415925,
+      "metric": 2.0168793108223375,
+      "metric_kind": "MAE",
+      "relative_metric": 6.466729713067963
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 2.037587801832246,
+      "RMSE": 2.2538173135863273,
+      "MSE": 2.0079461022983587,
+      "MaxAE": 3.8654206471400805,
+      "metric": 2.037587801832246,
+      "metric_kind": "MAE",
+      "relative_metric": 6.533127446144007,
+      "dMAE": 0.02070849100990868,
+      "improvement_pct": -1.0267590578568262,
+      "wins": 7,
+      "losses": 15,
+      "win_rate": 0.3181818181818182,
+      "p_value": 0.09173250198364258,
+      "dMAE_ci": [
+       -0.0020020275500309136,
+       0.04301014433727291
+      ],
+      "median_gain": -0.022276284649194622
+     }
+    }
+   },
+   "FH51": {
+    "dataset": "FH51",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 30,
+    "n_full_set": 51,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 44.09143093087065,
+    "standard_error": 1.137318028449862,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 2.1418132431799033,
+      "RMSE": 3.2916392610643466,
+      "MSE": -0.2126917515206383,
+      "MaxAE": 10.139363110709464,
+      "metric": 2.1418132431799033,
+      "metric_kind": "MAE",
+      "relative_metric": 1.883214008397585
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 2.0240963711427775,
+      "RMSE": 3.1553808300862443,
+      "MSE": -0.2945235775521461,
+      "MaxAE": 9.83449993181014,
+      "metric": 2.0240963711427775,
+      "metric_kind": "MAE",
+      "relative_metric": 1.7797100903267784,
+      "dMAE": -0.11771687203712577,
+      "improvement_pct": 5.496131486345378,
+      "wins": 22,
+      "losses": 8,
+      "win_rate": 0.7333333333333333,
+      "p_value": 0.10039735585451126,
+      "dMAE_ci": [
+       -0.2563468415543566,
+       0.02906109587475968
+      ],
+      "median_gain": 0.12504621789737824
+     }
+    }
+   },
+   "HB49": {
+    "dataset": "HB49",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 29,
+    "n_full_set": 49,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 14.176993397298967,
+    "standard_error": 0.2375355865658054,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.2487567376739654,
+      "RMSE": 2.111264382171094,
+      "MSE": -1.210206299728622,
+      "MaxAE": 9.542761856463123,
+      "metric": 1.2487567376739654,
+      "metric_kind": "MAE",
+      "relative_metric": 5.25713538644037
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.175938262470022,
+      "RMSE": 2.0575492204047503,
+      "MSE": -1.1162606903914531,
+      "MaxAE": 9.396855184798504,
+      "metric": 1.175938262470022,
+      "metric_kind": "MAE",
+      "relative_metric": 4.950577214434551,
+      "dMAE": -0.07281847520394336,
+      "improvement_pct": 5.8312778627790145,
+      "wins": 26,
+      "losses": 3,
+      "win_rate": 0.896551724137931,
+      "p_value": 0.0001104697585105896,
+      "dMAE_ci": [
+       -0.09692835607080996,
+       -0.04620255279970139
+      ],
+      "median_gain": 0.08907954866579093
+     }
+    }
+   },
+   "HSG": {
+    "dataset": "HSG",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 21,
+    "n_full_set": 21,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 6.6256842226484025,
+    "standard_error": 0.1249911227682356,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.43879190007770397,
+      "RMSE": 0.8068450803446396,
+      "MSE": -0.3638225206723291,
+      "MaxAE": 2.5635345820447135,
+      "metric": 0.43879190007770397,
+      "metric_kind": "MAE",
+      "relative_metric": 3.510584514800563
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.40400864734806613,
+      "RMSE": 0.7519478422598656,
+      "MSE": -0.2733787247954763,
+      "MaxAE": 2.4137250847567877,
+      "metric": 0.40400864734806613,
+      "metric_kind": "MAE",
+      "relative_metric": 3.232298729704172,
+      "dMAE": -0.03478325272963784,
+      "improvement_pct": 7.927049866571878,
+      "wins": 14,
+      "losses": 7,
+      "win_rate": 0.6666666666666666,
+      "p_value": 0.07598018646240234,
+      "dMAE_ci": [
+       -0.06816671255040528,
+       -0.0010625213851589777
+      ],
+      "median_gain": 0.05814991635785205
+     }
+    }
+   },
+   "ICONF": {
+    "dataset": "ICONF",
+    "datatype": "INC",
+    "datatype_long": "Intramolecular Noncovalent",
+    "n": 17,
+    "n_full_set": 17,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 4.54055466449991,
+    "standard_error": 0.2309765896864169,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.3010512023960328,
+      "RMSE": 0.4075237645106359,
+      "MSE": 0.18605396139643315,
+      "MaxAE": 1.0886890275781038,
+      "metric": 0.3010512023960328,
+      "metric_kind": "MAE",
+      "relative_metric": 1.3033840477286118
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.30958410899403993,
+      "RMSE": 0.4134943521754877,
+      "MSE": 0.1929228783174963,
+      "MaxAE": 1.109291151099562,
+      "metric": 0.30958410899403993,
+      "metric_kind": "MAE",
+      "relative_metric": 1.340326781230703,
+      "dMAE": 0.00853290659800715,
+      "improvement_pct": -2.834370542317952,
+      "wins": 6,
+      "losses": 11,
+      "win_rate": 0.35294117647058826,
+      "p_value": 0.0347900390625,
+      "dMAE_ci": [
+       0.0018924434162688225,
+       0.015061971386431937
+      ],
+      "median_gain": -0.008955865464451707
+     }
+    }
+   },
+   "INV23": {
+    "dataset": "INV23",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 19,
+    "n_full_set": 23,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 35.838693334603896,
+    "standard_error": 1.124860652761662,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.2497733054368017,
+      "RMSE": 1.9164763412153407,
+      "MSE": -0.7049742553373816,
+      "MaxAE": 6.453002604705219,
+      "metric": 1.2497733054368017,
+      "metric_kind": "MAE",
+      "relative_metric": 1.111047223821426
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.3499768287565275,
+      "RMSE": 2.056232405053172,
+      "MSE": -0.7926794759245349,
+      "MaxAE": 6.80575154639029,
+      "metric": 1.3499768287565275,
+      "metric_kind": "MAE",
+      "relative_metric": 1.20012805625495,
+      "dMAE": 0.10020352331972582,
+      "improvement_pct": -8.017735927293167,
+      "wins": 5,
+      "losses": 14,
+      "win_rate": 0.2631578947368421,
+      "p_value": 0.005329132080078125,
+      "dMAE_ci": [
+       0.03915590081579821,
+       0.16853869385472658
+      ],
+      "median_gain": -0.05320726143710086
+     }
+    }
+   },
+   "ISO34": {
+    "dataset": "ISO34",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 26,
+    "n_full_set": 34,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 21.173449225182853,
+    "standard_error": 0.8677496629213834,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.3022449547828425,
+      "RMSE": 2.158674646563918,
+      "MSE": 0.14624037464409573,
+      "MaxAE": 7.513295793724986,
+      "metric": 1.3022449547828425,
+      "metric_kind": "MAE",
+      "relative_metric": 1.5007150223472039
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.3044690124619864,
+      "RMSE": 2.138844791574455,
+      "MSE": 0.26376069280777115,
+      "MaxAE": 7.468891526903512,
+      "metric": 1.3044690124619864,
+      "metric_kind": "MAE",
+      "relative_metric": 1.5032780399710381,
+      "dMAE": 0.0022240576791439093,
+      "improvement_pct": -0.1707864308458607,
+      "wins": 14,
+      "losses": 12,
+      "win_rate": 0.5384615384615384,
+      "p_value": 0.670972615480423,
+      "dMAE_ci": [
+       -0.0993597827984436,
+       0.09002040460401561
+      ],
+      "median_gain": 0.007891409594799947
+     }
+    }
+   },
+   "ISOL23": {
+    "dataset": "ISOL23",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 9,
+    "n_full_set": 23,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 19.165510032376208,
+    "standard_error": 1.813936964022825,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.44676139248184,
+      "RMSE": 2.4886001205451738,
+      "MSE": -1.0265923372892207,
+      "MaxAE": 7.074184007576746,
+      "metric": 1.44676139248184,
+      "metric_kind": "MAE",
+      "relative_metric": 0.7975808537873951
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.5113334535824852,
+      "RMSE": 2.608755667227624,
+      "MSE": -1.064206352543214,
+      "MaxAE": 7.383666687087342,
+      "metric": 1.5113334535824852,
+      "metric_kind": "MAE",
+      "relative_metric": 0.8331785963668514,
+      "dMAE": 0.06457206110064506,
+      "improvement_pct": -4.463214282341003,
+      "wins": 4,
+      "losses": 5,
+      "win_rate": 0.4444444444444444,
+      "p_value": 0.359375,
+      "dMAE_ci": [
+       -0.0859231789066625,
+       0.21478537646264892
+      ],
+      "median_gain": -0.1629219236087005
+     }
+    }
+   },
+   "MCONF": {
+    "dataset": "MCONF",
+    "datatype": "INC",
+    "datatype_long": "Intramolecular Noncovalent",
+    "n": 30,
+    "n_full_set": 51,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 5.514604174299538,
+    "standard_error": 0.2276417240984313,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.6180808007930512,
+      "RMSE": 0.754079467039315,
+      "MSE": 0.5600442038367986,
+      "MaxAE": 1.2954141538570791,
+      "metric": 0.6180808007930512,
+      "metric_kind": "MAE",
+      "relative_metric": 2.7151472483392176
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.6144698565536454,
+      "RMSE": 0.7574064510335226,
+      "MSE": 0.5401476000854992,
+      "MaxAE": 1.2922836066897858,
+      "metric": 0.6144698565536454,
+      "metric_kind": "MAE",
+      "relative_metric": 2.6992848476580296,
+      "dMAE": -0.003610944239405778,
+      "improvement_pct": 0.5842188003207063,
+      "wins": 16,
+      "losses": 14,
+      "win_rate": 0.5333333333333333,
+      "p_value": 0.8871948085725307,
+      "dMAE_ci": [
+       -0.021437198481102242,
+       0.014180073278623377
+      ],
+      "median_gain": 0.001749457508937624
+     }
+    }
+   },
+   "NBC10": {
+    "dataset": "NBC10",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 30,
+    "n_full_set": 184,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 2.4654053347058325,
+    "standard_error": 0.1518243460762598,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.1436262951727054,
+      "RMSE": 0.20510675862434,
+      "MSE": -0.07778951687071908,
+      "MaxAE": 0.5485347743037927,
+      "metric": 0.1436262951727054,
+      "metric_kind": "MAE",
+      "relative_metric": 0.9460030547443516
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.11933746074737649,
+      "RMSE": 0.1970821220169142,
+      "MSE": 0.011007848116421685,
+      "MaxAE": 0.6817803696745024,
+      "metric": 0.11933746074737649,
+      "metric_kind": "MAE",
+      "relative_metric": 0.7860232158512609,
+      "dMAE": -0.024288834425328906,
+      "improvement_pct": 16.911133435644544,
+      "wins": 22,
+      "losses": 8,
+      "win_rate": 0.7333333333333333,
+      "p_value": 0.03841841779649258,
+      "dMAE_ci": [
+       -0.06502578496669437,
+       0.01854596000535864
+      ],
+      "median_gain": 0.012581077486189196
+     }
+    }
+   },
+   "NBPRC": {
+    "dataset": "NBPRC",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 12,
+    "n_full_set": 12,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 30.909235405288616,
+    "standard_error": 1.228716278816153,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.7805470357698647,
+      "RMSE": 2.3153580199994788,
+      "MSE": -0.9064193600366117,
+      "MaxAE": 5.147271663408109,
+      "metric": 1.7805470357698647,
+      "metric_kind": "MAE",
+      "relative_metric": 1.4491116187419533
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.8150579846360353,
+      "RMSE": 2.36049481623591,
+      "MSE": -0.8428677346542403,
+      "MaxAE": 5.324877735411764,
+      "metric": 1.8150579846360353,
+      "metric_kind": "MAE",
+      "relative_metric": 1.4771986144635543,
+      "dMAE": 0.034510948866170565,
+      "improvement_pct": -1.9382216910236736,
+      "wins": 6,
+      "losses": 6,
+      "win_rate": 0.5,
+      "p_value": 1.0,
+      "dMAE_ci": [
+       -0.08363503609285401,
+       0.1696562942402824
+      ],
+      "median_gain": -0.000789813982045473
+     }
+    }
+   },
+   "PArel": {
+    "dataset": "PArel",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 20,
+    "n_full_set": 20,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 6.234883596529799,
+    "standard_error": 0.679906640856077,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.5440239383774297,
+      "RMSE": 2.211934465648257,
+      "MSE": 0.6805581108324369,
+      "MaxAE": 6.868704334280966,
+      "metric": 1.5440239383774297,
+      "metric_kind": "MAE",
+      "relative_metric": 2.270935221978909
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.5966894539036236,
+      "RMSE": 2.2706879920717142,
+      "MSE": 0.7098910603610976,
+      "MaxAE": 6.984561739799712,
+      "metric": 1.5966894539036236,
+      "metric_kind": "MAE",
+      "relative_metric": 2.3483951442115885,
+      "dMAE": 0.05266551552619392,
+      "improvement_pct": -3.4109261014138545,
+      "wins": 6,
+      "losses": 14,
+      "win_rate": 0.3,
+      "p_value": 0.0014324188232421875,
+      "dMAE_ci": [
+       0.022311363115174433,
+       0.09031493167035771
+      ],
+      "median_gain": -0.02507549512275098
+     }
+    }
+   },
+   "PNICO23": {
+    "dataset": "PNICO23",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 23,
+    "n_full_set": 23,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 5.02131535502587,
+    "standard_error": 0.2158999722681703,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.0738395646724228,
+      "RMSE": 1.577791269622433,
+      "MSE": 1.0647416209356906,
+      "MaxAE": 5.444449190165358,
+      "metric": 1.0738395646724228,
+      "metric_kind": "MAE",
+      "relative_metric": 4.973782781864381
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.9816883111157455,
+      "RMSE": 1.5056063734604554,
+      "MSE": 0.957427930516337,
+      "MaxAE": 5.364295216647262,
+      "metric": 0.9816883111157455,
+      "metric_kind": "MAE",
+      "relative_metric": 4.54695894956571,
+      "dMAE": -0.0921512535566773,
+      "improvement_pct": 8.581473116497458,
+      "wins": 21,
+      "losses": 2,
+      "win_rate": 0.9130434782608695,
+      "p_value": 4.5299530029296875e-06,
+      "dMAE_ci": [
+       -0.11356128352672536,
+       -0.06781280271499955
+      ],
+      "median_gain": 0.10534452427530372
+     }
+    }
+   },
+   "PX9": {
+    "dataset": "PX9",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 9,
+    "n_full_set": 9,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 38.86941188331308,
+    "standard_error": 1.146826142817702,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 9.644248647032576,
+      "RMSE": 10.023708196861007,
+      "MSE": -9.644248647032576,
+      "MaxAE": 14.956370828496944,
+      "metric": 9.644248647032576,
+      "metric_kind": "MAE",
+      "relative_metric": 8.409512381133094
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 9.679565695452833,
+      "RMSE": 10.06135351725311,
+      "MSE": -9.679565695452833,
+      "MaxAE": 15.06672917895623,
+      "metric": 9.679565695452833,
+      "metric_kind": "MAE",
+      "relative_metric": 8.440307849689022,
+      "dMAE": 0.03531704842025718,
+      "improvement_pct": -0.3661980286159858,
+      "wins": 3,
+      "losses": 6,
+      "win_rate": 0.3333333333333333,
+      "p_value": 0.65234375,
+      "dMAE_ci": [
+       -0.04843146396456747,
+       0.12383837200196836
+      ],
+      "median_gain": -0.07527765427960631
+     }
+    }
+   },
+   "Pentane13": {
+    "dataset": "Pentane13",
+    "datatype": "INC",
+    "datatype_long": "Intramolecular Noncovalent",
+    "n": 13,
+    "n_full_set": 13,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 6.750292928141271,
+    "standard_error": 0.08066624803541583,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.2451278076325423,
+      "RMSE": 0.28501356025663654,
+      "MSE": 0.2451278076325423,
+      "MaxAE": 0.6463115190563862,
+      "metric": 0.2451278076325423,
+      "metric_kind": "MAE",
+      "relative_metric": 3.0387902450219455
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.23909687503412444,
+      "RMSE": 0.2796948976983827,
+      "MSE": 0.23909687503412444,
+      "MaxAE": 0.6557313855588696,
+      "metric": 0.23909687503412444,
+      "metric_kind": "MAE",
+      "relative_metric": 2.9640262297702376,
+      "dMAE": -0.00603093259841786,
+      "improvement_pct": 2.4603216814383218,
+      "wins": 10,
+      "losses": 3,
+      "win_rate": 0.7692307692307693,
+      "p_value": 0.19091796875,
+      "dMAE_ci": [
+       -0.012818418872354095,
+       0.0007655911892031146
+      ],
+      "median_gain": 0.005700417838023331
+     }
+    }
+   },
+   "RC21": {
+    "dataset": "RC21",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 21,
+    "n_full_set": 21,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 43.9412749252386,
+    "standard_error": 1.625124128209805,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 5.192658277860796,
+      "RMSE": 5.879313345776051,
+      "MSE": 4.7274721241680355,
+      "MaxAE": 10.131844298460152,
+      "metric": 5.192658277860796,
+      "metric_kind": "MAE",
+      "relative_metric": 3.1952379438122644
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 3.3251755888313737,
+      "RMSE": 4.112606360521055,
+      "MSE": 1.9321785489567762,
+      "MaxAE": 7.874750795995815,
+      "metric": 3.3251755888313737,
+      "metric_kind": "MAE",
+      "relative_metric": 2.0461056057879725,
+      "dMAE": -1.8674826890294227,
+      "improvement_pct": 35.96390498083698,
+      "wins": 17,
+      "losses": 4,
+      "win_rate": 0.8095238095238095,
+      "p_value": 0.0013742446899414062,
+      "dMAE_ci": [
+       -2.7442383233436662,
+       -0.9319988804614914
+      ],
+      "median_gain": 1.7961179914884662
+     }
+    }
+   },
+   "RSE43": {
+    "dataset": "RSE43",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 30,
+    "n_full_set": 43,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 10.066619073872213,
+    "standard_error": 0.7385734502330391,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.56682194941797,
+      "RMSE": 1.7590188522851116,
+      "MSE": -1.56682194941797,
+      "MaxAE": 4.296662193349398,
+      "metric": 1.56682194941797,
+      "metric_kind": "MAE",
+      "relative_metric": 2.121416561783526
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.6401447612254114,
+      "RMSE": 0.8518904639393065,
+      "MSE": -0.2825367653251153,
+      "MaxAE": 2.4996457330106026,
+      "metric": 0.6401447612254114,
+      "metric_kind": "MAE",
+      "relative_metric": 0.866731346792156,
+      "dMAE": -0.9266771881925586,
+      "improvement_pct": 59.14374562705054,
+      "wins": 27,
+      "losses": 3,
+      "win_rate": 0.9,
+      "p_value": 1.4193356037139893e-06,
+      "dMAE_ci": [
+       -1.2838167689742241,
+       -0.627565404814767
+      ],
+      "median_gain": 0.7421923593156015
+     }
+    }
+   },
+   "S22": {
+    "dataset": "S22",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 17,
+    "n_full_set": 22,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 9.084134584649217,
+    "standard_error": 0.2371118979237902,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.3538948246003161,
+      "RMSE": 0.45751096551224923,
+      "MSE": 0.3538948246003161,
+      "MaxAE": 0.9874384949951853,
+      "metric": 0.3538948246003161,
+      "metric_kind": "MAE",
+      "relative_metric": 1.4925224237969743
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.2476852925333258,
+      "RMSE": 0.36201794570781143,
+      "MSE": 0.22088869252939725,
+      "MaxAE": 0.8945268016223515,
+      "metric": 0.2476852925333258,
+      "metric_kind": "MAE",
+      "relative_metric": 1.0445924253574739,
+      "dMAE": -0.10620953206699033,
+      "improvement_pct": 30.0116092929423,
+      "wins": 15,
+      "losses": 2,
+      "win_rate": 0.8823529411764706,
+      "p_value": 7.62939453125e-05,
+      "dMAE_ci": [
+       -0.14985020158885295,
+       -0.06745224359999662
+      ],
+      "median_gain": 0.09291169337283378
+     }
+    }
+   },
+   "S66": {
+    "dataset": "S66",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 29,
+    "n_full_set": 66,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 6.205447313485494,
+    "standard_error": 0.1689582479589781,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.34440283910770675,
+      "RMSE": 0.4313833962917983,
+      "MSE": -0.305205371344373,
+      "MaxAE": 0.8677910840357033,
+      "metric": 0.34440283910770675,
+      "metric_kind": "MAE",
+      "relative_metric": 2.0383902133699054
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.2731294098236649,
+      "RMSE": 0.3631236438579119,
+      "MSE": -0.18513750535672568,
+      "MaxAE": 0.768790283541696,
+      "metric": 0.2731294098236649,
+      "metric_kind": "MAE",
+      "relative_metric": 1.616549728249898,
+      "dMAE": -0.07127342928404184,
+      "improvement_pct": 20.694785637859436,
+      "wins": 22,
+      "losses": 7,
+      "win_rate": 0.7586206896551724,
+      "p_value": 0.0019781142473220825,
+      "dMAE_ci": [
+       -0.10582460494171804,
+       -0.03588487238898753
+      ],
+      "median_gain": 0.09900080049400728
+     }
+    }
+   },
+   "SCONF": {
+    "dataset": "SCONF",
+    "datatype": "INC",
+    "datatype_long": "Intramolecular Noncovalent",
+    "n": 17,
+    "n_full_set": 17,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 4.96349991286015,
+    "standard_error": 0.1533801504114762,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.7651996065493125,
+      "RMSE": 0.8499152135596608,
+      "MSE": 0.3908038406421905,
+      "MaxAE": 1.7870377391866983,
+      "metric": 0.7651996065493125,
+      "metric_kind": "MAE",
+      "relative_metric": 4.988908959187321
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.7600728623035211,
+      "RMSE": 0.8391657195785747,
+      "MSE": 0.4030440864599528,
+      "MaxAE": 1.6885288165228927,
+      "metric": 0.7600728623035211,
+      "metric_kind": "MAE",
+      "relative_metric": 4.955483876267284,
+      "dMAE": -0.005126744245791404,
+      "improvement_pct": 0.6699878308759971,
+      "wins": 9,
+      "losses": 8,
+      "win_rate": 0.5294117647058824,
+      "p_value": 0.5790557861328125,
+      "dMAE_ci": [
+       -0.01941437700961217,
+       0.007323560247067546
+      ],
+      "median_gain": 0.0008437641717868871
+     }
+    }
+   },
+   "Styrene42": {
+    "dataset": "Styrene42",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 30,
+    "n_full_set": 42,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 67.28844245467982,
+    "standard_error": 1.816744005487891,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 2.963813338565186,
+      "RMSE": 4.080730164661683,
+      "MSE": 2.635139674271121,
+      "MaxAE": 10.094523043418747,
+      "metric": 2.963813338565186,
+      "metric_kind": "MAE",
+      "relative_metric": 1.6313874324683664
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 2.803124022429721,
+      "RMSE": 3.957657972964734,
+      "MSE": 2.437590893137516,
+      "MaxAE": 9.570612693042818,
+      "metric": 2.803124022429721,
+      "metric_kind": "MAE",
+      "relative_metric": 1.5429383633369609,
+      "dMAE": -0.160689316135465,
+      "improvement_pct": 5.421708379693588,
+      "wins": 23,
+      "losses": 7,
+      "win_rate": 0.7666666666666667,
+      "p_value": 0.000283263623714447,
+      "dMAE_ci": [
+       -0.23620896857477763,
+       -0.09003177448016754
+      ],
+      "median_gain": 0.14736413256852465
+     }
+    }
+   },
+   "TAUT15": {
+    "dataset": "TAUT15",
+    "datatype": "ISO",
+    "datatype_long": "Isomerization",
+    "n": 15,
+    "n_full_set": 15,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 4.523378919054049,
+    "standard_error": 0.613296790522916,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 1.6134081889073728,
+      "RMSE": 2.1551414544576457,
+      "MSE": 0.4327450375619206,
+      "MaxAE": 5.235673019350359,
+      "metric": 1.6134081889073728,
+      "metric_kind": "MAE",
+      "relative_metric": 2.6307135694151125
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 1.6527767459089227,
+      "RMSE": 2.2524033487371664,
+      "MSE": 0.465558797278296,
+      "MaxAE": 5.47970614979842,
+      "metric": 1.6527767459089227,
+      "metric_kind": "MAE",
+      "relative_metric": 2.694905258675353,
+      "dMAE": 0.03936855700154984,
+      "improvement_pct": -2.440086598804912,
+      "wins": 10,
+      "losses": 5,
+      "win_rate": 0.6666666666666666,
+      "p_value": 1.0,
+      "dMAE_ci": [
+       -0.017652573458329927,
+       0.10664211796267327
+      ],
+      "median_gain": 0.0043877335866620015
+     }
+    }
+   },
+   "WCPT26": {
+    "dataset": "WCPT26",
+    "datatype": "BH",
+    "datatype_long": "Barrier Height",
+    "n": 26,
+    "n_full_set": 26,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 36.11347045903952,
+    "standard_error": 1.262107330084094,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 8.815878027010125,
+      "RMSE": 9.861501894811871,
+      "MSE": -8.815878027010125,
+      "MaxAE": 18.8907396182498,
+      "metric": 8.815878027010125,
+      "metric_kind": "MAE",
+      "relative_metric": 6.985046213480691
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 8.857734483994774,
+      "RMSE": 9.864591713599493,
+      "MSE": -8.857734483994774,
+      "MaxAE": 18.93650305199128,
+      "metric": 8.857734483994774,
+      "metric_kind": "MAE",
+      "relative_metric": 7.018210157613604,
+      "dMAE": 0.04185645698464846,
+      "improvement_pct": -0.4747848921730594,
+      "wins": 11,
+      "losses": 15,
+      "win_rate": 0.4230769230769231,
+      "p_value": 0.3031630218029022,
+      "dMAE_ci": [
+       -0.024100506078086042,
+       0.10566839819571305
+      ],
+      "median_gain": -0.03279413513940321
+     }
+    }
+   },
+   "X40": {
+    "dataset": "X40",
+    "datatype": "NC",
+    "datatype_long": "Noncovalent",
+    "n": 30,
+    "n_full_set": 40,
+    "complete": false,
+    "unit": "kcal/mol",
+    "ref_rms": 4.715906146264406,
+    "standard_error": 0.182094206893113,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 0.44305507371590386,
+      "RMSE": 0.783304623905796,
+      "MSE": -0.38661727856710487,
+      "MaxAE": 2.956356661969613,
+      "metric": 0.44305507371590386,
+      "metric_kind": "MAE",
+      "relative_metric": 2.433109110252868
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 0.4102231615029243,
+      "RMSE": 0.7581867888437375,
+      "MSE": -0.29071617475999695,
+      "MaxAE": 2.939682036727209,
+      "metric": 0.4102231615029243,
+      "metric_kind": "MAE",
+      "relative_metric": 2.252807316070852,
+      "dMAE": -0.03283191221297954,
+      "improvement_pct": 7.410345611803567,
+      "wins": 22,
+      "losses": 8,
+      "win_rate": 0.7333333333333333,
+      "p_value": 0.12413446232676506,
+      "dMAE_ci": [
+       -0.06711632181085585,
+       0.0040405879603529074
+      ],
+      "median_gain": 0.05553617711761194
+     }
+    }
+   },
+   "YBDE18": {
+    "dataset": "YBDE18",
+    "datatype": "TC",
+    "datatype_long": "Thermochemistry",
+    "n": 18,
+    "n_full_set": 18,
+    "complete": true,
+    "unit": "kcal/mol",
+    "ref_rms": 53.114080869864424,
+    "standard_error": 1.727651721197919,
+    "methods": {
+     "r2SCAN": {
+      "MAE": 3.324834741820078,
+      "RMSE": 3.841604623214076,
+      "MSE": -2.8296720700716227,
+      "MaxAE": 7.178144961015761,
+      "metric": 3.324834741820078,
+      "metric_kind": "MAE",
+      "relative_metric": 1.9244820591008378
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "MAE": 2.9485713311451938,
+      "RMSE": 3.488634163854259,
+      "MSE": -1.2107147834845038,
+      "MaxAE": 7.3311572556120055,
+      "metric": 2.9485713311451938,
+      "metric_kind": "MAE",
+      "relative_metric": 1.7066931343666383,
+      "dMAE": -0.3762634106748841,
+      "improvement_pct": 11.316755264320607,
+      "wins": 8,
+      "losses": 10,
+      "win_rate": 0.4444444444444444,
+      "p_value": 0.7987060546875,
+      "dMAE_ci": [
+       -1.3068625384081365,
+       0.5650185688067119
+      ],
+      "median_gain": -0.07769812806234455
+     }
+    }
+   }
+  },
+  "by_datatype": {
+   "INC": {
+    "n_sets": 7,
+    "n_sets_kcal": 7,
+    "n_points": 152,
+    "methods": {
+     "r2SCAN": {
+      "mean_set_MAE": 0.3822264406531507,
+      "mean_relative_metric": 2.9595321339702205
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "mean_set_MAE": 0.37759225060485246,
+      "mean_relative_metric": 2.9040730385683107,
+      "mean_dMAE": -0.004634190048298237,
+      "sets_improved": 4,
+      "sets_total": 7,
+      "mean_dMAE_ci": [
+       -0.008814147954217021,
+       -0.0005587943361049006
+      ]
+     }
+    }
+   },
+   "NC": {
+    "n_sets": 10,
+    "n_sets_kcal": 10,
+    "n_points": 204,
+    "methods": {
+     "r2SCAN": {
+      "mean_set_MAE": 0.5558938820826173,
+      "mean_relative_metric": 3.2059261827672096
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "mean_set_MAE": 0.5140773444468696,
+      "mean_relative_metric": 3.004114479970488,
+      "mean_dMAE": -0.041816537635747664,
+      "sets_improved": 9,
+      "sets_total": 10,
+      "mean_dMAE_ci": [
+       -0.05156654676362541,
+       -0.031288786490779756
+      ]
+     }
+    }
+   },
+   "TC": {
+    "n_sets": 10,
+    "n_sets_kcal": 10,
+    "n_points": 203,
+    "methods": {
+     "r2SCAN": {
+      "mean_set_MAE": 2.327052037829717,
+      "mean_relative_metric": 1.743731854871566
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "mean_set_MAE": 2.4258379819156355,
+      "mean_relative_metric": 1.7117356730065083,
+      "mean_dMAE": 0.09878594408591868,
+      "sets_improved": 6,
+      "sets_total": 10,
+      "mean_dMAE_ci": [
+       -0.1878753341347608,
+       0.3761162951273529
+      ]
+     }
+    }
+   },
+   "ISO": {
+    "n_sets": 8,
+    "n_sets_kcal": 8,
+    "n_points": 162,
+    "methods": {
+     "r2SCAN": {
+      "mean_set_MAE": 1.6458657351314232,
+      "mean_relative_metric": 2.7188707083923123
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "mean_set_MAE": 1.6493987344139764,
+      "mean_relative_metric": 2.7167035091911105,
+      "mean_dMAE": 0.0035329992825532397,
+      "sets_improved": 2,
+      "sets_total": 8,
+      "mean_dMAE_ci": [
+       -0.023090625187711006,
+       0.029652074153134842
+      ]
+     }
+    }
+   },
+   "BH": {
+    "n_sets": 8,
+    "n_sets_kcal": 8,
+    "n_points": 140,
+    "methods": {
+     "r2SCAN": {
+      "mean_set_MAE": 5.479086610958561,
+      "mean_relative_metric": 5.184546283102819
+     },
+     "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+      "mean_set_MAE": 5.472242106521266,
+      "mean_relative_metric": 5.195164956551438,
+      "mean_dMAE": -0.006844504437294674,
+      "sets_improved": 2,
+      "sets_total": 8,
+      "mean_dMAE_ci": [
+       -0.044952208087750314,
+       0.030335328741770393
+      ]
+     }
+    }
+   }
+  },
+  "overall": {
+   "n_sets": 43,
+   "n_sets_kcal": 43,
+   "n_points": 861,
+   "methods": {
+    "r2SCAN": {
+     "mean_set_MAE": 2.058247977963146,
+     "mean_relative_metric": 3.103270726654426
+    },
+    "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)": {
+     "mean_set_MAE": 2.0701261801242086,
+     "mean_relative_metric": 3.0414409424578737,
+     "mean_dMAE": 0.01187820216106239,
+     "sets_improved": 23,
+     "sets_total": 43,
+     "mean_dMAE_ci": [
+      -0.05742841079596634,
+      0.07777203729455116
+     ]
+    }
+   }
+  }
+ }
+}

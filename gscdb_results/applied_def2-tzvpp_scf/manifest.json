@@ -1,0 +1,3618 @@
+{
+ "created": "2026-10-27 22:00:01",
+ "args": {
+  "preset": "applied",
+  "datasets": null,
+  "datatypes": null,
+  "exclude_datasets": [],
+  "max_atoms": null,
+  "max_reactions_per_set": null,
+  "elements": null,
+  "closed_shell_only": false,
+  "max_multiplicity": null,
+  "allow_fields": false,
+  "allow_fd": false,
+  "allow_ecp": false,
+  "sample_seed": 0,
+  "basis": "def2-tzvpp",
+  "mode": "scf",
+  "disp": "d3bj",
+  "grid_level": 4,
+  "atom_grid": null,
+  "conv_tol": 1e-09,
+  "uks_always": false,
+  "torch_baseline": false,
+  "max_memory": 4000,
+  "models": [
+   "best_models/BEST_EPOCH_bs_1_lr_3e-05_R2SCAN_6_32_0.2_pointwise_d3r2scan_phase5_0.17861_epoch_47_train_loss_0.925_val_loss_0.851_train_exc_0.00101_val_exc_0.00122_train_fchem_43.771_val_fchem_36.928.pth"
+  ],
+  "disp_table": "dispersions/gscdb_applied.json",
+  "make_disp_table": null,
+  "models_dir": "best_models",
+  "omegas": null,
+  "all_checkpoints": false,
+  "out": "gscdb_results/applied_def2-tzvpp_scf",
+  "nshards": 40,
+  "threads": 4,
+  "redo_unconverged": false,
+  "time_limit": 56400.0,
+  "gscdb_dir": null,
+  "check_field_convention": false
+ },
+ "methods": [
+  "r2SCAN",
+  "r2SCAN+NN(pointwise[d3r2scan_phase5] w=0.17861 ep47)"
+ ],
+ "n_reactions": 891,
+ "n_molecules": 1645,
+ "reactions": [
+  {
+   "name": "ACONF_1",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_2",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_3",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_4",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_5",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_6",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_7",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_8",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_9",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_10",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_11",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_12",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_13",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_14",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ACONF_15",
+   "dataset": "ACONF"
+  },
+  {
+   "name": "ADIM6_1",
+   "dataset": "ADIM6"
+  },
+  {
+   "name": "ADIM6_2",
+   "dataset": "ADIM6"
+  },
+  {
+   "name": "ADIM6_3",
+   "dataset": "ADIM6"
+  },
+  {
+   "name": "ADIM6_4",
+   "dataset": "ADIM6"
+  },
+  {
+   "name": "AlkIsod14_1",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_2",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_3",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_4",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_5",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_6",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_7",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_8",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_9",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_10",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_11",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_12",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_13",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsod14_14",
+   "dataset": "AlkIsod14"
+  },
+  {
+   "name": "AlkIsomer11_1",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_2",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_3",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_4",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_5",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_6",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_7",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_8",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_9",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_10",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "AlkIsomer11_11",
+   "dataset": "AlkIsomer11"
+  },
+  {
+   "name": "Amino20x4_5",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_6",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_7",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_10",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_13",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_18",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_20",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_22",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_28",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_33",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_34",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_35",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_37",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_39",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_44",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_46",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_47",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_50",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_52",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_54",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_58",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_59",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_62",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_63",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_65",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_66",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_68",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_71",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_73",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "Amino20x4_74",
+   "dataset": "Amino20x4"
+  },
+  {
+   "name": "BDE99_10",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_11",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_15",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_18",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_22",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_23",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_25",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_26",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_31",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_37",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_42",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_44",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_47",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_51",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_53",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_60",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_61",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_66",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_70",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_71",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_75",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_76",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_78",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_81",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_82",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_85",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_86",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_93",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_94",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BDE99_95",
+   "dataset": "BDE99nonMR"
+  },
+  {
+   "name": "BH28_BHDIV_1",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHDIV_2",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHDIV_3",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHPERI_4",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHPERI_5",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHPERI_6",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHPERI_7",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHPERI_8",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_BHPERI_9",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_10",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_11",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_12",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_13",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_14",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_15",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_16",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_17",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CADBH_18",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CRBH_19",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CRBH_20",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CRBH_21",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CRBH_22",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CRBH_23",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_CRBH_24",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_PXBH_25",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_PXBH_26",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_PXBH_27",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BH28_PXBH_28",
+   "dataset": "BH28"
+  },
+  {
+   "name": "BHDIV10_1",
+   "dataset": "BHDIV7"
+  },
+  {
+   "name": "BHDIV10_3",
+   "dataset": "BHDIV7"
+  },
+  {
+   "name": "BHDIV10_4",
+   "dataset": "BHDIV7"
+  },
+  {
+   "name": "BHDIV10_5",
+   "dataset": "BHDIV7"
+  },
+  {
+   "name": "BHDIV10_6",
+   "dataset": "BHDIV7"
+  },
+  {
+   "name": "BHDIV10_7",
+   "dataset": "BHDIV7"
+  },
+  {
+   "name": "BHDIV10_10",
+   "dataset": "BHDIV7"
+  },
+  {
+   "name": "BHPERI_3",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_8",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_9",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_10",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_20",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_21",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_22",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_23",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_24",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_25",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHPERI_26",
+   "dataset": "BHPERI11"
+  },
+  {
+   "name": "BHROT27_1",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_2",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_3",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_4",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_5",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_6",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_7",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_8",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_9",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_10",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_11",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_12",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_13",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_14",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_15",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_16",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_17",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_18",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_19",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_20",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_21",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_22",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_23",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_24",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_25",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_26",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BHROT27_27",
+   "dataset": "BHROT27"
+  },
+  {
+   "name": "BSR36_2",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_4",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_5",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_6",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_7",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_10",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_11",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_12",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_13",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_14",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_15",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_16",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_17",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_18",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_19",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_21",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_22",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_23",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_24",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_25",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_26",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_27",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_28",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_29",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_30",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_31",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_32",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_33",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_34",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BSR36_36",
+   "dataset": "BSR36"
+  },
+  {
+   "name": "BUT14DIOL_3",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_5",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_6",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_9",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_10",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_14",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_16",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_17",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_18",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_24",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_26",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_27",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_29",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_31",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_32",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_34",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_35",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_38",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_40",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_43",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_44",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_45",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_46",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_48",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_49",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_50",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_56",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_57",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_62",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "BUT14DIOL_63",
+   "dataset": "BUT14DIOL"
+  },
+  {
+   "name": "CARBHB12_2",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CARBHB12_3",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CARBHB12_4",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CARBHB12_6",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CARBHB12_7",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CARBHB12_8",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CARBHB12_11",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CARBHB12_12",
+   "dataset": "CARBHB8"
+  },
+  {
+   "name": "CR20_1",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_2",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_3",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_4",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_5",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_6",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_7",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_8",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_9",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_10",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_11",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_12",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_13",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_14",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_15",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_16",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_17",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_18",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_19",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CR20_20",
+   "dataset": "CR20"
+  },
+  {
+   "name": "CRBH20_3",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_4",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_5",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_6",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_7",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_8",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_9",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_13",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_14",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_15",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_16",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_17",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_18",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "CRBH20_19",
+   "dataset": "CRBH14"
+  },
+  {
+   "name": "DARC_1",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_2",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_3",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_4",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_5",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_6",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_7",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_8",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_9",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_10",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_11",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_12",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_13",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DARC_14",
+   "dataset": "DARC"
+  },
+  {
+   "name": "DIE60_1",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_2",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_3",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_4",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_5",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_6",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_7",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_8",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_10",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_11",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_13",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_15",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_16",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_18",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_21",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_22",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_23",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_24",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_28",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_32",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_38",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_40",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_41",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_42",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_43",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_45",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_48",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_51",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_52",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DIE60_59",
+   "dataset": "DIE60"
+  },
+  {
+   "name": "DS14_1",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_2",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_3",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_4",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_5",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_6",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_7",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_8",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_9",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_10",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_11",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_12",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_13",
+   "dataset": "DS14"
+  },
+  {
+   "name": "DS14_14",
+   "dataset": "DS14"
+  },
+  {
+   "name": "EIE22_1",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_2",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_3",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_4",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_5",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_6",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_7",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_8",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_9",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_10",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_11",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_12",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_13",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_14",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_15",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_16",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_17",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_18",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_19",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_20",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_21",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "EIE22_22",
+   "dataset": "EIE22"
+  },
+  {
+   "name": "FH51_2",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_3",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_4",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_6",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_8",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_9",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_12",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_13",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_14",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_18",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_20",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_21",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_24",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_25",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_26",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_27",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_31",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_33",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_34",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_36",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_37",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_39",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_40",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_41",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_42",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_46",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_48",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_49",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_50",
+   "dataset": "FH51"
+  },
+  {
+   "name": "FH51_51",
+   "dataset": "FH51"
+  },
+  {
+   "name": "HB49_3",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_4",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_6",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_7",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_9",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_11",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_12",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_13",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_14",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_15",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_17",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_20",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_22",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_23",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_26",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_27",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_28",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_29",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_30",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_31",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_32",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_33",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_34",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_37",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_39",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_41",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_45",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_47",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_48",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HB49_49",
+   "dataset": "HB49"
+  },
+  {
+   "name": "HSG_1",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_2",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_3",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_4",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_5",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_6",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_7",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_8",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_9",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_10",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_11",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_12",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_13",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_14",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_15",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_16",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_17",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_18",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_19",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_20",
+   "dataset": "HSG"
+  },
+  {
+   "name": "HSG_21",
+   "dataset": "HSG"
+  },
+  {
+   "name": "ICONF_1",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_2",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_3",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_4",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_5",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_6",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_7",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_8",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_9",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_10",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_11",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_12",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_13",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_14",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_15",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_16",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "ICONF_17",
+   "dataset": "ICONF"
+  },
+  {
+   "name": "INV24_1",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_2",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_3",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_4",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_5",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_6",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_7",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_8",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_10",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_11",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_12",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_13",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_14",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_16",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_18",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_19",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_20",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_21",
+   "dataset": "INV23"
+  },
+  {
+   "name": "INV24_22",
+   "dataset": "INV23"
+  },
+  {
+   "name": "ISO34_1",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_3",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_4",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_5",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_6",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_8",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_9",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_10",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_11",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_12",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_13",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_15",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_16",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_17",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_18",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_19",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_20",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_21",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_22",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_23",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_24",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_25",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_26",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_27",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_28",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_29",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_30",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_31",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_33",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISO34_34",
+   "dataset": "ISO34"
+  },
+  {
+   "name": "ISOL24_3",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_5",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_9",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_10",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_13",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_14",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_19",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_20",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "ISOL24_21",
+   "dataset": "ISOL23"
+  },
+  {
+   "name": "MCONF_1",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_2",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_6",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_9",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_11",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_13",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_14",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_15",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_16",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_19",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_20",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_22",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_23",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_25",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_27",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_28",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_29",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_31",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_33",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_34",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_38",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_39",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_40",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_41",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_42",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_44",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_45",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_46",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_49",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "MCONF_51",
+   "dataset": "MCONF"
+  },
+  {
+   "name": "NBC10_1",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_4",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_10",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_13",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_17",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_22",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_34",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_41",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_43",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_49",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_55",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_67",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_80",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_81",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_84",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_103",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_107",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_115",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_120",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_125",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_127",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_136",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_141",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_144",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_155",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_163",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_166",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_173",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_180",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBC10_183",
+   "dataset": "NBC10"
+  },
+  {
+   "name": "NBPRC_1",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_2",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_3",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_4",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_5",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_6",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_7",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_8",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_9",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_10",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_11",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "NBPRC_12",
+   "dataset": "NBPRC"
+  },
+  {
+   "name": "PArel_1",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_2",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_3",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_4",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_5",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_6",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_7",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_8",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_9",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_10",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_11",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_12",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_13",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_14",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_15",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_16",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_17",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_18",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_19",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PArel_20",
+   "dataset": "PArel"
+  },
+  {
+   "name": "PNICO23_1",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_2",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_3",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_4",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_5",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_6",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_7",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_8",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_9",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_10",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_11",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_12",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_13",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_14",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_15",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_16",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_17",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_18",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_19",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_20",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_21",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_22",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PNICO23_23",
+   "dataset": "PNICO23"
+  },
+  {
+   "name": "PX13_1",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_2",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_4",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_5",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_7",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_8",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_9",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_10",
+   "dataset": "PX9"
+  },
+  {
+   "name": "PX13_13",
+   "dataset": "PX9"
+  },
+  {
+   "name": "Pentane14_1",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_2",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_3",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_4",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_5",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_6",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_7",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_8",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_9",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_10",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_11",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_12",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "Pentane14_13",
+   "dataset": "Pentane13"
+  },
+  {
+   "name": "RC21_1",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_2",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_3",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_4",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_5",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_6",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_7",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_8",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_9",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_10",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_11",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_12",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_13",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_14",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_15",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_16",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_17",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_18",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_19",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_20",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RC21_21",
+   "dataset": "RC21"
+  },
+  {
+   "name": "RSE43_1",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_3",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_4",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_5",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_7",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_8",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_9",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_12",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_13",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_14",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_15",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_16",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_17",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_18",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_20",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_21",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_22",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_23",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_25",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_26",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_28",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_30",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_33",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_34",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_36",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_38",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_39",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_40",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_42",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "RSE43_43",
+   "dataset": "RSE43"
+  },
+  {
+   "name": "S22_1",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_2",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_3",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_4",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_5",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_6",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_7",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_8",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_9",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_10",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_11",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_12",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_13",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_14",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_15",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_16",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_17",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_18",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_19",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_20",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_21",
+   "dataset": "S22"
+  },
+  {
+   "name": "S22_22",
+   "dataset": "S22"
+  },
+  {
+   "name": "S66_1",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_3",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_6",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_12",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_14",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_17",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_19",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_21",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_24",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_25",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_27",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_28",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_30",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_32",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_35",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_36",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_37",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_38",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_39",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_41",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_42",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_44",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_45",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_46",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_48",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_51",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_55",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_57",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_59",
+   "dataset": "S66"
+  },
+  {
+   "name": "S66_66",
+   "dataset": "S66"
+  },
+  {
+   "name": "SCONF_1",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_2",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_3",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_4",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_5",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_6",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_7",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_8",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_9",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_10",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_11",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_12",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_13",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_14",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_15",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_16",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "SCONF_17",
+   "dataset": "SCONF"
+  },
+  {
+   "name": "Styrene45_3",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_4",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_5",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_6",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_7",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_8",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_9",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_10",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_11",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_13",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_14",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_17",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_18",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_19",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_20",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_23",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_24",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_25",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_29",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_31",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_32",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_33",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_34",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_35",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_37",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_39",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_40",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_42",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_43",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "Styrene45_44",
+   "dataset": "Styrene42"
+  },
+  {
+   "name": "TAUT15_1",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_2",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_3",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_4",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_5",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_6",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_7",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_8",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_9",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_10",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_11",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_12",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_13",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_14",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "TAUT15_15",
+   "dataset": "TAUT15"
+  },
+  {
+   "name": "WCPT27_1",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_2",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_3",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_4",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_5",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_7",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_8",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_9",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_10",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_11",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_12",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_13",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_14",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_15",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_16",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_17",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_18",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_19",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_20",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_21",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_22",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_23",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_24",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_25",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_26",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "WCPT27_27",
+   "dataset": "WCPT26"
+  },
+  {
+   "name": "X40_2",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_3",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_4",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_5",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_6",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_7",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_10",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_11",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_12",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_13",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_14",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_15",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_16",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_17",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_18",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_19",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_20",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_22",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_23",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_25",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_27",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_29",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_30",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_31",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_32",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_33",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_34",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_35",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_36",
+   "dataset": "X40"
+  },
+  {
+   "name": "X40_38",
+   "dataset": "X40"
+  },
+  {
+   "name": "YBDE18_1",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_2",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_3",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_4",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_5",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_6",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_7",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_8",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_9",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_10",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_11",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_12",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_13",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_14",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_15",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_16",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_17",
+   "dataset": "YBDE18"
+  },
+  {
+   "name": "YBDE18_18",
+   "dataset": "YBDE18"
+  }
+ ],
+ "rejected": {
+  "molecule larger than 36 atoms": 39,
+  "gscdb-skipped set": 71
+ }
+}
