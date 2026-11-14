@@ -1,1 +1,21 @@
-/.venv-lab
+# Venv
+.venv/
+.venv-lab/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook and Marimo
+**/.ipynb_checkpoints/
+**/__marimo__/
