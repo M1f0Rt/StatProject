@@ -1,0 +1,49 @@
+/* Цвета и шрифт приходят из statlab/style.py: ячейки приложения передают их
+   CSS-переменными --lab-* в атрибуте style, здесь только форма и отступы. */
+.lab-hero {
+  background: linear-gradient(125deg, var(--lab-ink) 0%, var(--lab-ink-soft) 100%);
+  border-radius: 1rem;
+  color: #ffffff;
+  font-family: var(--lab-font);
+  padding: clamp(1.4rem, 5vw, 3rem);
+  margin-block: 0.5rem 1rem;
+}
+.lab-hero h1 {
+  color: inherit;
+  font-family: inherit;
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin: 0.5rem 0 0.7rem;
+}
+.lab-hero p { color: inherit; opacity: 0.85; margin: 0; }
+.lab-nav {
+  background: var(--lab-surface);
+  border: 1px solid var(--lab-grid);
+  border-radius: 0.7rem;
+  color: var(--lab-ink);
+  font-family: var(--lab-font);
+  padding: 0.8rem 1.1rem;
+}
+.lab-nav summary { cursor: pointer; font-weight: 700; }
+.lab-nav nav { display: flex; flex-wrap: wrap; gap: 0.5rem 1.2rem; padding: 0.7rem 0 0.1rem; }
+.lab-nav a, .lab-back a { color: var(--lab-ink); text-decoration: underline; text-underline-offset: 0.2em; }
+.lab-nav a:focus-visible, .lab-nav summary:focus-visible, .lab-back a:focus-visible {
+  outline: 2px solid var(--lab-ink);
+  outline-offset: 4px;
+}
+.lab-section {
+  background: var(--lab-surface);
+  border-inline-start: 4px solid var(--lab-ink);
+  border-radius: 0.4rem;
+  color: var(--lab-ink);
+  font-family: var(--lab-font);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1.2rem 0 0.4rem;
+  padding: 0.7rem 1rem;
+}
+.lab-hero, .lab-section { scroll-margin-top: 4rem; }
+.lab-back { font-family: var(--lab-font); margin-block: 1rem 2rem; }
