@@ -11,3 +11,8 @@ scipy-stubs==1.18.1.1
 scipy==1.18.1
 seaborn==0.13.2
 statsmodels==0.15.0
+
+# Доп. задание КТвД
+anywidget==0.11.0
+jupyterlab==4.6.6
+marimo==0.25.2
